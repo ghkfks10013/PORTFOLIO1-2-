@@ -1,0 +1,107 @@
+@charset "UTF-8";
+      
+      
+   
+      #sub {width:1400px; height:12100px; margin:0 auto; position:relative;}
+      #sbmenu {width:100%; height:50px; float:left; margin:0; position:absolute; top:0; left:0;}
+      #sbmenu ul {width:1000px;  margin:0px 0 0 100px; font-family:"맑은 고딕";  font-size:15px; float:left;}
+      #sbmenu ul li {float:left; margin:15px 0 0 20px;}
+      #sbmenu ul li a {text-decoration:none; color:#666;}
+      
+      #content {width:1200px; height:700px; box-sizing:border-box; box-shadow:4px 4px 4px #eee; border:1px solid #eee; float:left; margin:50px 0 0 120px;}
+      #pro {width:500px; height:600px; background-color:orange; float:left;}
+      #pro img {width:100%; height:100%; float:left; margin:0;}
+      #micon {width:100px; height:450px; float:left; border:1px solid #ddd; margin:70px 0 0 25px;}
+      #micon img {width:100%; height:100%; margin:20px 0 0 0px; box-sizing:border-box; box-shadow:4px 4px 4px #eee;}
+      #micon li {margin:10px 10px;}
+      #micon li:hover {cursor:pointer;}
+      #micon .t {float:left; width:100% height:30px; font-size:24px; color:#666; text-align:center;}
+
+      #content table {float:left; width:400px; margin:10px 0 0 25px; border-top:1px solid #999; border-bottom:1px solid #999;}
+      #content th {font-weight:bold;}
+      #content td {width:300px; height:50px; padding:0px 0 0 15px; text-align:center; font-family:"맑은 고딕"; font-size:15px; color:#333;}
+      #content td span {font-family:"맑은 고딕"; font-size:20px; color:#333; font-weight:bold;}
+      #content td select {width:100px; height:25px; font-family:"맑은 고딕"; font-size:13px; color:#666;}
+
+      #bt {float:left; width:400px; height:50px; margin:30px 0 0 30px;}
+      .bt1 {float:left; width:120px; height:50px; background-color:#666; color:#fff; border-radius:5px; margin:5px; font-family:"맑은 고딕"; font-size:15px; border:none;}
+      .bt1:hover {background-color:white; color:#333; border:2px solid #6666ff;}
+
+      .bt2 {float:left; width:120px; height:50px; background-color:#fff; color:#000; border-radius:5px; margin:5px; font-family:"맑은 고딕"; font-size:15px; border:none;}
+      .bt2:hover {background-color:white; color:#333; border:2px solid #6666ff;}
+
+      .bt3 {float:left; width:120px; height:50px; background-color:#fff; color:#000; border-radius:5px; margin:5px;font-family:"맑은 고딕"; font-size:15px; border:none;} 
+      .bt3:hover {background-color:white; color:#333; border:2px solid #6666ff;}
+      
+
+
+      #b1 {width:500px; height:500px; background-color:#e6e6e6; float:left; margin:60px 0 0 40px;}
+      #b1 h3 {float:left; font-family:"맑은 고딕"; font-weight:bold; font-size:23px; margin:5px 0 0 25px;}
+      #b1 h4 {float:left; font-size:20px;color:yellow; margin:5px 0 0 15px;}
+ 
+
+      #choice {width:1300px; height:350px; float:left; border-radius:5px; margin:80px 0 0 -80px; border:1px solid #ddd; box-sizing:border-box; box-shadow:3px 3px #eee}
+      #choice h4 {text-align:center; font-size:20px;}
+      #choice .cho1 {width:200px; height:150px; float:left;}
+      #choice .cho1 img {width:100%; height:80%; overflow:hidden; transform:scale(1); transition:all 0.3s;}
+      #choice .cho1 img:hover {opacity:0.7;}
+      #choice .cho1 img a:hover {transform:scale(1.2);}
+      .cho1 h3 {color:#000; font-size:15px; text-align:center; text-decoration:none;}
+      .cho1 h4 {font-weight:bold; text-align:center; font-size:17px; text-decoration:none;}
+      #choice > .cho1 {box-shadow:3px 3px 3px #eee; border:1px solid #ddd; width:200px;height:250px; float:left; box-sizing:border-box;
+      	margin:10px; padding:10px 5px;}
+  
+      #choice > div:nth-of-type(1) {margin:30px 0 0 60px;}
+      #choice > div:nth-of-type(2) {margin:30px 0 0 45px;}
+      #choice > div:nth-of-type(3) {margin:30px 0 0 45px;}
+      #choice > div:nth-of-type(4) {margin:30px 0 0 45px;}
+      #choice > div:nth-of-type(5) {margin:30px 0 0 45px;}
+
+      
+      #info {width:1200px; height:10000px; box-sizing:border-box; border:1px solid #ddd; border-radius:20px; float:left; margin: 20px 0 0 -20px;}
+      #info img {width:85%; height:100%; margin:20px 0 0 90px; float:left;}
+      #info .ifmn  {width:100%; height:50px; border-radius:10px; background-color:#f2f2f2;}
+      .ifmn h4 {text-align:center; font-size:20px;}
+      .ifmn ul {font-size:15px; float:left;}
+      .ifmn ul li{float: left; font-size:15px; margin:10px 0 0 70px;}
+      .ifmn ul li a {text-decoration:none; color:#000;}
+      .ifmn ul li a:hover {color:red;}
+      #info .q {font-weight:bold;}
+      
+      #delivery {width:1200px; height:350px; box-sizing:border-box; border-radius:10px; border:1px solid #ddd; margin:100px 0 0 0px; float:left; }
+      #delivery .ifmn {width:100%; height:35px; border-radius:10px; background-color:#f2f2f2;}
+      #delivery .w {font-weight:bold;}
+      #delivery ul {float:;}
+      #delivery h4 {font-size:17px;}
+
+      #after {width:1200px; height:200px; box-sizing:border-box; border-radius:20px; border:1px solid #ddd; float:left; margin:30px 0 0 0px; }
+      #after .ifmn {width:100%; height:35px; border-radius:10px; background-color:#f2f2f2;}
+      #after .r {font-weight:bold;}
+      #after table {float:left; width:1000px; margin:60px 0 0 65px; border-top:1px solid #999; border-bottom:1px solid #999;}
+      #after button {width:80px; height:30px; background-color:#000033; color:#fff; border:none; border-radius:3px; float:right; margin:15px 50px 0 0px; cursor:pointer;}
+
+      #questions {width:1200px; height:200px; box-sizing:border-box; border-radius:20px; border:1px solid #ddd; float:left; margin:30px 0 0 0px;}
+      #questions .ifmn {width:100%; height:35px; border-radius:5px; background-color:#f2f2f2;}
+      #questions .e {font-weight:bold;}
+      #questions h5 {float:left; margin:20px 0 0 50px; font-size:15px;}
+      #questions table {float:left; width:1000px; height:50px; margin:30px 0 0 60px; border-top:1px solid #999; border-bottom:1px solid #999;}
+      #questions .td1 {width:100px; height:20px; text-align:center; font-family:"맑은 고딕"; color:#000; font-size:15px;}
+      #questions .td2 {width:100px; height:20px; text-align:center; font-family:"맑은 고딕"; color:#000; font-size:15px;}
+      #questions .td3 {width:100px; height:20px; text-align:center; font-family:"맑은 고딕"; color:#000; font-size:15px;}
+      #questions .td4 {width:100px; height:20px; text-align:center; font-family:"맑은 고딕"; color:#000; font-size:15px;}
+      #questions .td5 {width:100px; height:20px; text-align:center; font-family:"맑은 고딕"; color:#000; font-size:15px;}
+      #questions button:nth-of-type(1) {width:120px; height:30px; background-color:white; color:#666; border:none; border:1px solid #ddd; float:right; margin:10px 0 0 5px; cursor:pointer;}
+      #questions button:nth-of-type(2) {width:120px; height:30px; background-color:#00001a; color:#fff; border:none; float:right; margin:10px 0 0 5px; cursor:pointer;}
+      
+
+     
+      
+      
+      
+
+
+
+
+
+
+      

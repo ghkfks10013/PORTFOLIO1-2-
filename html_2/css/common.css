@@ -1,0 +1,82 @@
+﻿@charset "UTF-8";
+
+	* {margin:0; box-sizing:border-box;}
+	ul,li,ol {list-style:none; margin:0; padding:0;}
+
+
+	header {width:100%; height:165px; margin:0 auto;}
+	#top {width:100%; height:40px; background-color:#4b8227; margin:0 auto;}
+	#loginbox {width:1500px; height:35px; margin: 0 auto;}
+	#loginbox ul {width:100%; height:20px; float:left; margin:5px 40px 0 600px;}
+	#loginbox ul li {float:left; margin:0 0 0 35px; padding:0px 0 0 0px;}
+	#loginbox ul li a {text-decoration:none; font-weight:bold; font-size:12px; color:#fff;}
+  	#loginbox ul li a:hover {color:#ccff66;}
+  	#loginbox img {float:left; margin:0px 0 0 -120px;}
+	#top2 {width:1500px; height:100px; margin:0 auto; position:relative;}
+  	#top2 button {width:150px; height:50px; float:right; color:#fff; border:none; margin:40px 35px 0 0px; background-color:#f4511e; opacity:0.8; border:1px solid #f4511e; transition:0.3s; text-align:center; cursor:pointer;}
+  	#top2 button:hover {background-color:#fff; color:#000;}
+	#logo {width:280px; height:85px; float:left; margin:30px 0 0 80px; }
+	#logo img {width:100%; height:100%;}
+
+	nav {width:850px; height:60px;  float:right; position:absolute;top:35px; left:450px;}
+	nav ul {width:700px; height:50px; float:left; margin:10px 0 0 40px; }
+	nav ul li {float:left; padding:10px 0 0 45px;}
+	nav ul li a {text-decoration:none; font-size:18px; color:#000; font-weight:bold;}
+  nav ul li a:hover {color:#99e600;}
+  nav .a1 {color:#99e600; font-weight:bold; font-size:18px;}
+	nav .nvicon {width:55px; height:50px; background-color:black; float:left; }
+	nav .nvicon img {width:100%; height:100%;}
+	nav > div:nth-of-type(1) {margin:10px 0 0 10px;}
+	nav > div:nth-of-type(2) {margin:10px 0 0 10px;}
+
+	footer {width:100%; height:400px; margin:0 auto; background-color:#4b8227;} 
+
+  	#bye {width:1430px; height:400px; margin:0 auto;}
+  	
+  	#bye .bybox1 {width:365px; height:350px; float:left; margin:-100px;}
+ 	#bye .bybox1 .REVIEWS h5 {text-align:left; font-size:25px; margin:100px 0 10px 0px;}
+ 	#bye .bybox1 .REVIEWS img {width:100px; height:60px; margin:15px 0 0 45px; float:left;}
+  	#bye .bybox1 .call {width:350px; height:110px;  margin:0px 0 0 5px;}
+  	#bye .bybox1 .call img {width:30px; height:30px; margin:10px 10px 0 0px;}
+  	#bye .bybox1 .call h2 {text-align:left; margin:0px 0 0 0px;}
+  	#bye .bybox1 .call h3 {text-align:left; font-size:15px; margin:-5px 100px 0 0px;}
+  	#bye .bybox1 .call p {text-align:left; margin:10px 0 0 0px;}
+
+  	#bye .bybox1 .call2 {width:350px; height:50px;  float:left; margin:10px 0 0 0px;}
+  	#bye .bybox1 .call2 h4 {text-align:left; font-size:15px; margin:15px 0 0 0px;}
+  	#bye .bybox1 .call2 h4 a {text-decoration:none; color:#000;}
+  	#bye .bybox1 .call2 img {width:30px; height:30px; margin:10px 10px 0 5px;}
+
+  	#bye .bybox1 img {max-height:100%; max-width: 100%; float:left; margin:5px 0 0 10px;}
+  	#bye .bybox1 h3 {text-align:center; margin:10px 0 0 0px; padding:20px 0 0 0px}
+  	#bye .bybox1 h4 {text-align:center; font-size:40px;}
+  	#bye .bybox1 ul {padding:35px 0 0 0px;}
+  	#bye .bybox1 ul li {text-align:left; color:#000; font-size:20px; margin:10px 0 20px 60px;}
+  	#bye .bybox1 ul li a {text-decoration:none;}
+  	#bye .bybox1 ul li a:hover {color:green;}
+
+
+  	#bye .bybox2 {width:365px; height:390px; float:left; margin:20px 0 30px 70px;}
+
+  	#bye .bybox2 h3 {text-align:left; font-size:25px; margin:10px 0 0 10px;}
+  	#bye .bybox2 ul {margin:0px 0 0 0px; padding:10px;}
+  	#bye .bybox2 ul li {margin:20px 0 0 0px;}
+  	#bye .bybox2 ul li a {text-decoration:none; color:#000;}
+  	#bye .bybox2 ul li a:hover {color:#fff;}
+
+
+  	#bye .bybox3 {width:365px; height:390px; float:left; margin:20px 0 30px 70px;}
+  	#bye .bybox3 h4 {text-align:left; font-size:20px; margin:10px 0 0 15px;}
+
+  	#bye .bybox3 #search {width:200px; height:35px; margin:70px 0 0 25px; border-radius:2px; border:none;}
+  #bye .bybox3 #go {width:50px; height:35px; background-color:#ff8533; border:none;}
+
+  #bye .bybox3 .sns {width:300px; height:50px; float:left;}
+  #bye .bybox3 .sns img {max-width:100%; max-height:100%;  margin:40px 0 0 0px; padding:10px 0 0 30px;}
+
+  #bye > div:nth-of-type(1) {margin:40px 0 0 120px;}
+  #bye > div:nth-of-type(2) {margin:40px 0 0 50px;}
+  #bye > div:nth-of-type(3) {margin:40px 0 0 50px;}
+
+  #PARTNERS {width:1700px; height:100px; margin:0 auto;}
+  #PARTNERS .ptimg {width:600px; height:100px;  float:left; margin:-20px 0 0 500px;}

@@ -1,0 +1,55 @@
+﻿@charset "UTF-8";
+      
+      * {margin:0; padding:0;}
+      ul,li,ol {list-style:none; margin:0; padding:0; }      
+
+      #wrap {width:100%; padding:0;}
+      header {width:100%; height:195px; margin:0 auto;}
+
+      
+      
+
+      #loginbox {width:100%; height:35px; background-color:#d9d9d9; margin:0 auto;}
+      #loginbox ul {float:right;font-size:15px; font-family:"돋움";color:#808080; margin:10px 100px 10px;}
+      #loginbox li {float:left; padding:0px 5px;}
+      #loginbox li a {text-decoration:none;color:#737373;}
+
+
+      #top {width:100%; height:250px; margin:0 auto;}
+
+      #logo {width:320px; height:90px; margin:0 auto;}
+      #logo img {width:100%; height:100%; margin:10px;}
+
+      nav {width:100%; height:55px; margin:15px 0px; background-color:#000;}
+      nav ul {display:flex; justify-content:center; align-content:center; padding:15px;}
+      nav ul li {padding:0px 20px; margin:0px 20px;}
+      nav .a1 {color:orange; font-weight:bold; font-size:20px;}
+      nav a {text-decoration:none; color:#fff; font-size:20px; font-family:"맑은 고딕"; font-weight:bold;}
+      nav a:hover {color:orange;}
+
+      footer {width:100%; height:350px; margin:0 auto;}
+      footer #end {width:100%; height:50px; margin:0 auto; background-color:black;}
+      footer #end ul {width:1000px; height:50px; margin:0 auto;}
+      footer #end ul li {float:left; margin:15px 0 0 30px;}
+      footer #end ul li a {text-decoration:none; font-size:14px; color:#fff;}
+      footer #end ul li a:hover {color:orange;}
+
+      footer #company {width:100%; height:250px; margin:0 auto; background-color:#d9d9d9;}
+      footer #company #box {width:1200px; height:240px; margin:0 auto;}
+      footer #company .box1 {width:250px; height:200px; float:left; margin:30px 0 0 80px;}
+      footer #company .box1 h3 {text-align:center; height:45px;}
+      footer #company .box1 p {text-align:center; color:#666; font-size:12px;}
+
+      footer #company .box2 {width:250px; height:200px; float:left; margin:30px 0 0 80px;}
+      footer #company .box2 h3 {text-align:center; height:50px;}
+      footer #company .box2 h4 {text-align:center; height:65px; color:#ff6600;}
+      footer #company .box2 p {text-align:center; color:#666; font-size:13px;}
+
+      footer #company .box3 {width:250px; height:200px; float:left; margin:30px 0 0 80px;}
+      footer #company .box3 h4 {text-align:center; height:65px;}
+      footer #company .box3 p {text-align:center; color:#666; height:100px;font-size:12px;}
+
+
+      footer #last {width:100%; height:50px; margin:0 auto;}
+      footer #last .last1 {width:1000px; height:40px; margin:0 auto;}
+      footer #last img {max-width:100%; float:left; margin:0 0 0 180px;}

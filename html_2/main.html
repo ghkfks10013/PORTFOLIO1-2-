@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<link href="css/common.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+</head>
+<body>
+
+<header>
+<div id="top">
+	<div id="loginbox">
+    <ul>
+      <li><a href="#">About The Zoo</a></li>
+      <li><a href="#">Guide for Guests</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Donate Now</a></li>
+    </ul>
+	</div>
+
+</div>
+
+<div id="top2">
+	<div id="logo"><a href="main.html"><img src="img/logo2.jpg"></a></div>
+  <button>Ticket booking</button>
+	<nav>
+	  <ul>
+	  	<li><a href="sub2.html">PLAN YOUR VISIT</a></li>
+	  	<li><a href="#">Animals</a></li>
+	  	<li><a href="#">Learning</a></li>
+	  	<li><a href="#">Conservation & Science</a></li>	
+	  </ul>
+	  <div class="nvicon"><a href="#"><img src="img/ic1.jpg"></a>
+    </div>
+	</nav>
+</div>
+</header>
+
+  <div id="zndex">
+     <h3>Animals and habitats</h3>
+     <p>Discover the animals of Melbourne Zoo</p>
+
+    <div class="one"><img src="img/zoo1.jpg" alt="zoo"></div>
+    </div>
+    <div id="zndex2">
+     <h3>Become a Member</h3>
+     <p>Free entry plus exclusive events and discounts</p>
+
+    <div class="two"><img src="img/zoo4.png" alt="zoo4"></div>
+</div>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade"> 
+  <img src="img/slider1.jpg" style="width:100%">
+  <div class="text">DISCOVER YOUR WILD SIDE</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="img/slider6.jpg" style="width:100%">
+  <div class="text2">Animals at Home</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="img/slider7.jpg" style="width:100%">
+  <div class="text">Fighting Extinction</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+
+  var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+
+<section>
+<div id="content">
+  <h4>A Day at the Zoo</h4>
+  <h5><a href="#">PLAN YOUR VISIT →</a></h5>
+	<div class="box1"><img src="img/m1.jpg" alt="bx1">
+    <h3>Dugong</h3>
+    <p>NEW ARRIVALS</p>
+  </div>
+	<div class="box1"><img src="img/m2.jpg" alt="bx2">
+    <h3>Wolf</h3>
+    <p>EXHIBITS</p>
+  </div>
+	<div class="box1"><img src="img/m3.jpg" alt="bx3">
+    <h3>Otter</h3>
+    <p>ANIMALS</p>
+  </div>
+  </div>
+</div>
+
+<div id="content2">
+  <div id="itbox">
+    <h3>News</h3>
+	<div class="item"><img src="img/new1.jpg">
+    <h4>march 10, 2020</h4>
+    <p>What species do we sympathize with most?</p>
+  </div>
+	<div class="item"><img src="img/new2.jpg">
+    <h4>march 25, 2020</h4>
+    <p>What is the most fascinating animal?</p>
+  </div>
+	<div class="item"><img src="img/new3.jpg">
+    <h4>march 31, 2020</h4>
+    <p>Reptile Mystery, released on March 31, 2020</p>
+  </div>
+  <button>Read more</button>
+  </div>
+
+</div>
+
+<div id="content3">
+  <h3>Quick information for a visit</h3>
+	<div class="wtbox">
+    <div class="wtbox1"><img src="img/no 8.jpg"></div>
+      <h4>Don't yell at the animals too loudly. It can be a lot of stress for animals.</h4>
+  </div>
+	<div class="wtbox">
+    <div class="wtbox1"><img src="img/no7.jpg"></div>
+      <h5>Please step out of the yellow line and watch it as it could be dangerous if you get close to Cage.</h5>
+  </div>
+	<div class="wtbox">
+    <div class="wtbox1"><img src="img/gd2.jpg"></div>
+      <h5>If you need a guide, please visit the customer center for the price and time.</h5>
+  </div>
+	<div class="wtbox">
+     <div class="wtbox1"><img src="img/gd1.jpg"></div> 
+       <h5>I don't mind taking pictures, but please turn off the flashlight because it may surprise animals.</h5>
+  </div>
+	<div class="wtbox">
+    <div class="wtbox1"><img src="img/fm1.jpg"></div>
+    <h5>Children can enter free of charge. If you join our zoo easily, you can enter for free.</h5>  
+  </div>
+	<div class="wtbox">
+    <div class="wtbox1"><img src="img/sm1.jpg"></div>
+    <h5>Smoking areas are designated. Smoking is only allowed in the areas indicated on the map.</h5> 
+  </div>
+</div>
+
+<div id="videobox">
+  <div id="vdbox">
+    <h3>act for the wild</h3>
+	<div class="emvideo"><iframe width="380" height="300" src="https://www.youtube.com/embed/hdHkFSZjkhE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+	<div class="emvideo"><iframe width="380" height="300" src="https://www.youtube.com/embed/RKU6x1n9Hak" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+	<div class="emvideo"><iframe width="380" height="300" src="https://www.youtube.com/embed/TtXgt-BdwIQ" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+
+  <button class="btn">Watch all videos</button>
+  </div>
+</div>
+
+
+
+<div id="content4">
+    <div id="update">
+      <div class="upbox1"><img src="img/d1.jpg">
+         <h3>ABOUT OUR PARK</h3>
+         <p>Learn more about Bronx Zoo’s history, animal collection, and more.</p>
+         <button>LEARN MORE</button>
+      </div>
+    </div>  
+    <div id="update2">
+      <div class="upbox2">
+        <h2>PLAN YOUR VISIT</h2>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10505.198197724827!2d2.405783231708224!3d48.83342469314114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e672f4eab21383%3A0x70c3ddb088a9ebba!2sParc%20zoologique%20de%20Paris!5e0!3m2!1sko!2skr!4v1586397421377!5m2!1sko!2skr" width="350" height="320" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+          <a href="#"><h3>Zoo MAP,& MORE</a></h3>
+
+            <hr>
+
+        <div class="FAQ">
+          <h3>Know Before You Go</h3>
+          <a href="#"><h4>FAQ&MORE</a></h4>
+
+        </div>
+      </div>
+        <div class="today">
+
+          <h3>TODAY AT THE ZOO</h3>
+          <img src="img/w1.png">
+          <h4>The Central Park Zoo is temporarily closed.</h4>
+          <a href="#"><h5>VIEW FULL SCHEDULE</a></h5>
+
+        </div>
+    </div>
+</div>
+    
+</section>
+
+<footer>
+<div id="bye">
+	<div class="bybox1">
+    <div class="call">
+      <h2>CONTACT</h2>
+      <p>PARC ZOOLOGIQUE DE PARISAVENUE DAUMESNIL-75012 parc</p>
+      <img src="img/by1.png">
+      <h3>960660526</h3>
+    </div>  
+    <div class="call2"> 
+      <img src="img/ph1.png">
+      <h4><a href="#">info@bioparcvalencia.es</a></h4>
+    </div> 
+
+    <div class="REVIEWS">
+    <h5>REVIEWS OF BIOPARC</h5>
+      <hr>
+      <a href="#"><img src="img/c1.jpg"></a>
+      <a href="#"><img src="img/c2.jpg"></a>
+    </div>
+  </div>
+	<div class="bybox2">
+    <h3>FIND YOUR EXPERIENCE</h3>
+      <ul>
+        <li><a href="#">ABOUT ZOOLOGIQ PARKEU OF PARIS</a></li>
+        <li><a href="#">LEGISLATIVE REFERENCES</a></li>
+        <li><a href="#">SITE MAP</a></li>
+        <li><a href="#">RECOMMENDED PAYMENT</a></li>
+      </ul>
+  </div>
+	<div class="bybox3">
+    <h4>SIGN UP FOR ZOOMAIL WEEKLY</h4>
+      <table>
+        <tr>
+         <input type="text" name="anything" id="search">
+         <input type="submit" id="go" value="→">
+       </tr>
+      </table>
+    <div class="sns">
+      <a href="#"><img src="img/sns1.png"></a>
+      <a href="#"><img src="img/sns2.png"></a>
+      <a href="#"><img src="img/sns3.png"></a>
+      <a href="#"><img src="img/sns4.png"></a>
+      
+
+    </div>
+
+  </div>
+</div>
+
+<div id="PARTNERS">
+  <div class="ptimg">
+    <a href="#"><img src="img/pt1.jpg"></a>
+    <a href="#"><img src="img/pt2.jpg"></a>
+    <a href="#"><img src="img/pt3.jpg"></a>
+    <a href="#"><img src="img/pt4.jpg"></a>
+  </div>
+</div>
+
+</footer>
+
+</body>
+</html>

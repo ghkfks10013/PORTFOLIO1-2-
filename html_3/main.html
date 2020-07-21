@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BENEDICTA</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+<link href="css/common.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script>
+  var currentScrollTop=0;
+$(document).ready(function(){
+     scrollController();
+      $(window).scroll(function(){
+           scrollController();
+               });
+         });
+    function scrollController(){
+    currentScrollTop = $(window).scrollTop();
+        if(currentScrollTop > 100) {
+		$("#nav").addClass("fixed");
+		$("#nav a").addClass("txtCh");
+	                 }else{
+		$("#nav").removeClass("fixed");
+		$("#nav a").removeClass("txtCh");
+ 	              }
+	           }
+
+</script>
+
+</head>
+<body>
+<div id="wrap">
+<header>
+<div id="top">
+	<div id="logobox"></div>
+	  <div id="nav">
+	  	<div class="logo"></div>
+	  	<ul>
+	  	  <li><a href="">HOME</a></li>
+	  	  <li><a href="">ABOUT</a></li>
+	  	  <li><a href="">MENU</a></li>
+	  	  <li><a href="">RESERVATION</a></li>
+	  	  <li><a href="">NEWS</a></li>
+	  	  <li><a href="">CONTACT</a></li>	
+	  	</ul>
+	  </div>
+</div>
+</header>
+  <div id="slider">
+  	<div class="sdtxt">
+  		<h3>WELCOME TO OUR</h3>
+  		<h4>RESTAURANT</h4>
+  		<p> We strive to make sure that the service we deliver is not just a complete high quality service, but also an innovative solution that can assure return on investment.</p>
+  	</div>
+  	  <ul class="slider_inner">
+      <li><img src="img/slider4.jpg" ></li>
+      <li><img src="img/slider5.jpg" ></li>
+      <li><img src="img/slider6.jpg" ></li>
+   </ul>
+
+   <ul class="slider_btn">
+      <li><button> &lt; </button></li>
+      <li><button> &gt; </button></li>
+   </ul>
+  </div>
+
+  <script>
+var bw = document.documentElement.clientWidth
+
+setInterval("bw_size()",0);
+
+
+function  bw_size(){
+ bw= document.documentElement.clientWidth 
+
+ if(bw>420 && bw<1000){
+   $("#slider , .slider_inner li, .slider_inner li img").css({width:1000});
+   $(".slider_inner").css({width:4000 });
+   $(".slider_btn").css({width:bw, top: 230 });
+  }else{
+   $("#slider , .slider_inner li, .slider_inner li img").css({width:bw});
+   $(".slider_inner").css({width: bw* (  $(".slider_inner li:last").index()+1 ) });
+  $(".slider_btn").css({width:bw, top:  parseInt($("header").css("height"))+ parseInt( $(".slider_inner img").css("height") )/2 - parseInt( $(".slider_btn li button").css("height") )/2 });
+
+  }
+
+}
+
+
+
+
+var ag = setInterval("test()",6000);
+function test(){
+         $(".slider_inner").animate({ marginLeft:-bw*2 }, function(){  
+                $(".slider_inner li:first").appendTo(".slider_inner");
+                $(".slider_inner").css({marginLeft:-bw});
+         });
+};
+
+
+$(function(){
+   $(".slider_inner li:last").prependTo(".slider_inner");
+   $(".slider_inner").css({marginLeft:-bw});
+
+
+   $(".slider_btn li:eq(2)").hide();
+
+   $(".slider_btn li:eq(1) button").click( function(){   
+         clearInterval(ag);
+         $(".slider_btn li:eq(2)").fadeIn("fast");
+
+         $(".slider_inner").animate({ marginLeft:-bw*2 }, function(){  
+                $(".slider_inner li:first").appendTo(".slider_inner");
+                $(".slider_inner").css({marginLeft:-bw});
+         });
+  });
+
+  $(".slider_btn li:eq(0) button").click( function(){   
+         clearInterval(ag);
+         $(".slider_btn li:eq(2)").fadeIn("fast");
+
+         $(".slider_inner").animate({ marginLeft:0 }, function(){  
+                $(".slider_inner li:last").prependTo(".slider_inner");
+                $(".slider_inner").css({marginLeft:-bw});
+         });
+  });
+
+
+  $(window).resize( function(){ 
+
+  if(bw>420 && bw<1000){
+       $(".slider_inner").css({marginLeft:-1000});
+   }else{
+     $(".slider_inner").css({marginLeft:-bw});
+   }
+  
+  });
+
+});
+
+
+</script>
+<section>
+  <div id="we">
+  	<div class="us">
+	    <div class="wetxt">
+	  	  <h2>ABOUT US</h2>
+	    </div>
+	    <div id="webox1">
+		  <div class="webx1">
+			  <img src="img/lp1.png">
+			  <h3>BEST INTERIORS</h3>
+			  <p>The ends of the not Integer mollis eget felis those who, because they result there is great pain</p>
+		  </div>
+		  <div class="webx2">
+			  <img src="img/lt2.png">
+			  <h3>100% ORGANIC</h3>
+		      <p>We make our products from 100% organic and fresh ingredients full of vitamins and nutrients.</p>
+		  </div>
+		  <div class="webx3">
+			  <img src="img/lt3.png">
+			  <h3>Cooking Period</h3>
+			  <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p>
+		  </div>
+	  </div>
+	  <hr>
+	  <div id="webox2">
+	    <div class="webx4">
+	  	  <h3>ABOUT RESTAURANT</h3>
+	  	  <p>Exquisite and fashionable cuisine from the famous cooks. Try our dishes and you will never want something else. Our cooks prepare new and unusual dishes every month, so the range is always new.</p>
+	  	  <button>READ MORE</button>
+	    </div>
+	  </div>
+	</div>  
+  </div>
+<div id="team">
+	<div class="teambox">
+	  <div class="teamtxt">
+			<div class="txt1">
+			  <h3>Our Master Chef</h3>
+		    </div>
+		    <div class="txt2">
+			  <p>We're sure you won't be able to eat anywhere else after today.</p>
+			</div>
+	  </div>
+
+		<div class="people">
+
+		  <div class="doe"><img src="img/sf1.jpg">
+			  <h4>john Doe</h4>
+			  <p>an authentic Piedmont restaurant in New York City, was born from the passion six friends share for their homeland, and their desire to share their culinary and cultural traditions with the world.</p>
+			  <div class="social">
+				  <i class="fab fa-facebook fa-lg"></i>
+				  <i class="fab fa-twitter fa-lg"></i>
+				  <i class="fab fa-google-plus fa-lg"></i>
+			  </div>
+		  </div>
+		  <div class="clark"><img src="img/sf2.jpg">
+ 			  <h4>Andrew clark</h4>
+ 			  <p>business partner in this project, Moreno leading smith’s operations as Managing Director joins the team with a background in p.r., sales and marketing at some major brands European corporations.</p>
+ 			  <div class="social">
+				  <i class="fab fa-facebook fa-lg"></i>
+				  <i class="fab fa-twitter fa-lg"></i>
+			  </div>
+		  </div>
+		  <div class="smith"><img src="img/sf3.jpg">
+			  <h4>Patrick smith</h4>
+			  <p>a partner in the project and doe’s General Manager comes from a family restaurant business in Northern Italy, and was the first of the San Carlo team to venture into New York City’s hospitality industry</p>
+			  <div class="social">
+				  <i class="fab fa-facebook fa-lg"></i>
+				  <i class="fab fa-twitter fa-lg"></i>
+			  </div>
+		  </div>
+	  </div>
+	</div>
+</div>
+
+<div id="banner">
+	<div class="bannertxt">
+		<h3 class="bntxt">"Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away."</h3>
+	</div>
+</div>
+
+<div id="work">
+	<div id="wrbox">
+		  <div class="wrtxt">
+		  	<span>TODAY OUR</span>
+			<h3>SPECIAL OFFERS</h3>
+	      </div>
+		<div class="wrtable">
+			<div class="br">
+				<div class="monney1">
+					<h3>$40</h3>
+					<h4>/person</h4>
+				</div>
+				<div class="brimg">
+					<div class="three"></div>
+				</div>
+				<div class="brtable">
+					<figure class="tb">Caesar salad with BouillaBaisse</figure>
+					<figure class="tb2">California Half Roll with tomatoes , oranges</figure>
+					<figure class="tb3">Salmon sushi with avocado & caviar</figure>
+					<figure class="tb4">Spicy Tuna Half Roll with parsley</figure>
+					<figure class="tb5">Fried ‘Rice Krispies’</figure>
+					<button>12.00AM~2.00PM</button>
+				</div>
+			</div>
+			<div class="lc">
+				<div class="monney2">
+					<h3>$50</h3>
+					<h4>/person</h4>
+				</div>
+				<div class="lcimg">
+					<div class="three"></div>
+				</div>
+				<div class="lctable">
+					<figure class="tb">Shrimp Tempura</figure>
+					<figure class="tb2">Seafood Louie Salad</figure>
+					<figure class="tb3">Charred Spanish Octopus</figure>
+					<figure class="tb4">Rick’s White Clam Chowder</figure>
+					<figure class="tb5">Miso Soup</figure>
+					<button>8.00AM~10.00PM</button>
+				</div>
+			</div>
+			<div class="dn">
+				<div class="monney3">
+					<h3>$50</h3>
+					<h4>/person</h4>
+				</div>
+				<div class="dnimg">
+					<div class="three">
+					</div>
+				</div>
+				<div class="dntable">
+					<figure class="tb">Salmon</figure>
+					<figure class="tb2">Jumbo Sea Scallops</figure>
+					<figure class="tb3">Chef’s Whole Fish Selection</figure>
+					<figure class="tb4">Crab Stuffed Lobster</figure>
+					<figure class="tb5">Charred Spanish Octopus</figure>
+					<button>6.00AM~11.00PM</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="fact">
+  <div class="factbox">
+	<div class="facttxt">
+		<h3>SOME <span class="under">FUN</span> FACT</h3>
+	</div>
+	  <div class="factcounter">
+		<div class="ct">
+ 		    <span>3.253</span>
+		   <div class="cttxt">
+		   	  <h3>Client</h3>
+		   </div>
+		</div>
+		<div class="cf">
+			<span>135</span>
+		  <div class="cftxt">
+		  	  <h3>Chef Team</h3>
+		  </div>
+		</div>
+		<div class="od">
+			<span>488</span>
+		  <div class="odtxt">
+		  	  <h3>Original Dhishes</h3>
+		  </div>
+		</div>
+		<div class="wc">
+			<span>1247</span>
+		  <div class="wctxt">
+		  	  <h3>Wine Collection</h3>
+		  </div>
+		</div>
+	  </div>
+  </div>
+</div>
+
+<div id="service">
+	<div class="svicon1">
+		<i class="fas fa-calendar-check fa-3x" id="icon"></i>
+		<div class="svtxt1">
+			<h3>reservation</h3>
+		</div>
+	</div>
+	<div class="svicon2">
+		<i class="fas fa-map-marker-alt fa-3x" id="icon"></i>
+		<div class="svtxt1">
+			<h3>Address</h3>
+		</div>
+	</div>
+	<div class="svicon3">
+		<i class="fas fa-comments fa-3x" id="icon"></i>
+		<div class="svtxt1">
+			<h3>Communication</h3>
+		</div>
+	</div>
+	<div class="svicon4">
+		<i class="fas fa-door-closed fa-3x" id="icon"></i>
+		<div class="svtxt1">
+			<h3>Open Time</h3>
+		</div>
+	</div>
+	<div class="svicon5">
+		<i class="fas fa-camera fa-3x" id="icon"></i>
+		<div class="svtxt1">
+			<h3>Gallery</h3>
+		</div>
+	</div>
+</div>
+<div id="blog">
+	<div class="bgcenter">
+	  <div class="bgtxt">
+	  	<span>LATEST NEWS</span>
+	  	<h3>FROM BLOG</h3>
+	  </div>
+	  <div class="blogbox">
+	  	<div class="bgbox1">
+	  		<div class="bgimg1"></div>
+	  		<div class="bgtxt1">
+	  			<img src="img/v1.png">
+	  			<h3>20 JAN: RESTAURANT POST</h3>
+	  		</div>
+	  		<div class="bgtxt2">
+	  			<p>Join us for a dinner oyster special with luxurious wine. It tastes very good anyway. A special day for Friday, the 20th of this week</p>
+	  			<span class="a">READ MORE</span>
+	  		</div>
+	  	</div>
+	  	<div class="bgbox2">
+	  		<div class="bgimg2"></div>
+	  		<div class="bgtxt1">
+	  			<img src="img/v1.png">
+	  			<h3>18 FEB: RESTAURANT POST</h3>
+	  		</div>
+	  		<div class="bgtxt2">
+	  			<p>A codfish that you can't taste anywhere. A great chance for the main chef to prepare and eat with various vegetables. Join us this Tuesday, the 18th.</p>
+	  			<span class="a">READ MORE</span>
+	  		</div>
+	  	</div>
+	  	<div class="bgbox3">
+	  		<div class="bgimg3"></div>
+	  		<div class="bgtxt1">
+	  			<img src="img/v1.png">
+	  			<h3>02 JUN: RESTAURANT POST</h3>
+	  		</div>
+	  		<div class="bgtxt2">
+	  			<p>An open kitchen, a special day where you can see your food cooked, and also enjoy the chef's fancy techniques. For reservations, please refer to the website.</p>
+	  			<span class="a">READ MORE</span>
+	  		</div>
+	  		<hr><hr>
+	  	</div>
+	  	<div class="bgbox4">
+	  		<div class="bgimg4"></div>
+	  		<div class="bgtxt1">
+	  			<img src="img/v1.png">
+	  			<h3>24 SEP: RESTAURANT POST</h3>
+	  		</div>
+	  		<div class="bgtxt2">
+	  			<p>Our restaurant's master chef will prepare the fresh salmon right away from Norway. Enjoy delicious salmon.</p>
+	  			<span class="a">READ MORE</span>
+	  		</div>
+	  	</div>
+	  	<div class="bgbox5">
+	  		<div class="bgimg5"></div>
+	  		<div class="bgtxt1">
+	  			<img src="img/v1.png">
+	  			<h3>16 NOV: RESTAURANT POST</h3>
+	  		</div>
+	  		<div class="bgtxt2">
+	  			<p>Enjoy tonight's dinner with fresh shrimp here. Today's menu recommended by the Master Chef. Meet a glass of French fine wine at a 30% discoun.t</p>
+	  			<span class="a">READ MORE</span>
+	  		</div>
+	  	</div>
+	  	<div class="bgbox6">
+	  		<div class="bgimg6"></div>
+	  		<div class="bgtxt1">
+	  			<img src="img/v1.png">
+	  			<h3>08 DEC: RESTAURANT POST</h3>
+	  		</div>
+	  		<div class="bgtxt2">
+	  			<p>Our restaurant presents a new menu, seafood dessert. Fresh shrimp dessert with fresh vegetables. You can only taste it on Saturday, the 8th, next week.</p>
+	  			<span>READ MORE</span>
+	  		</div>
+	  	</div>
+	  </div>
+	</div>  
+</div>
+
+<div id="video">
+	<div id="bg">
+  <video src="video/food.mp4" loop muted autoplay></video>
+    </div> 
+  <div class="textbox">
+  	<h1>WE MADE A NEW GOURMET MENU</h1>
+  	<p>New tasty and elegant menu will not leave you indifferent to our dishes</p>
+  	<button>MORE</button>
+  </div>
+</div>
+
+<div id="test">
+	<div class="txt">
+	  <div class="txt1">
+	  	<h2>TES<span class="d">TIMONI</span>ALS</h2>
+	  </div>
+	  <div class="txt2">
+	  	<p>"the worl they made impressde me on multiple levels. i jave been very happy about the whole process and they have done a greet job. they was fast to delivery new ideas and always helpful with our questions!"</p>
+	  </div>
+	  <div class="txt3">
+	  	<h4><span class="c">Elena Gonzales</span> Envato Team</h4>
+	  </div>
+	</div>
+</div>
+
+<div id="donate">
+	<div class="dnimg1"><img src="img/d1.jpg" alt="d1"></div>
+	<div class="dnimg2"><img src="img/d2.jpg" alt="d2"></div>
+	<div class="dnimg3"><img src="img/d3.jpg" alt="d3"></div>
+	<div class="dnimg4"><img src="img/d4.jpg" alt="d4"></div>
+	<div class="dnimg5"><img src="img/d5.jpg" alt="d5"></div>
+	<div class="dnimg6"><img src="img/d6.jpg" alt="d6"></div>
+</div>
+
+</section>
+<footer>
+  <div id="contact">
+	<div class="info">
+		<h3>Contact Info</h3>
+		<ul>
+		  <li><i class="fas fa-map-marker-alt"></i>Amphitheatre Parkway, Mountain View, CA 94043</li>
+		  <li><i class="fas fa-phone-square-alt"></i>+321 123 456 7</li>
+		  <li class="f"><i class="far fa-envelope"></i><a href="#">johndoe@ipsum.com</a></li>
+		  <li class="f"><i class="fab fa-internet-explorer"></i><a href="#">www.website.com</a></li>
+		</ul>
+	</div>
+	<div class="contxt">
+		<h1>Come And Work With Us</h1>
+	</div>
+	<div class="send">
+		<input name="userid" type="text" value="Name" style="border:1px solid #fff; background:transparent;">
+		<input name="E-mail" type="text" value="E-mail" style="border:1px solid #fff; background:transparent;">
+		<div class="clear"></div>
+		<input name="Message" type="Message" value="Message" style="border:1px solid #fff; background:transparent;">
+		
+	</div>
+		<button class="bt1">Send</button>
+	
+  </div>
+  <div class="map">
+			<p>Copyright 2016 - Patti.All Rights Reserved</p>
+		</div>		
+</footer>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,801 @@
+﻿@charset "UTF-8";
+
+@media (max-width:599px) {
+
+#slider {width:100%; display:flex; justify-content:center; align-items:center; overflow:hidden; margin:0 auto; position:relative;}
+.sdtxt {width:90%; height:80%; margin:0 auto; position:absolute; top:35%; left:25%;}
+.sdtxt h3 {width:100%; text-align:center; font-size:45px; color:#fff; font-weight:lighter; font-family:"Microsoft Yi Baiti"; margin:10px 0 0 0px;}
+.sdtxt h4 {text-align:center; font-size:80px; color:#fff; font-weight:bold; font-family:"Microsoft Yi Baiti"; margin:10px 0 0 0px;}
+.sdtxt p {text-align:center; font-size:25px; color:#fff; font-family:"Microsoft Yi Baiti"; margin:20px 0 0 0px;}
+.slider_inner li{ float:left;}
+
+
+.slider_btn{ 
+   position: absolute; top:320px; 
+}
+
+.slider_btn button{ 
+   width:50px; height:50px;
+   border:0; background: rgba(0,0,0,0.7);
+   color:#fff; font-size:20px; font-weight:bold; cursor: pointer;
+ }
+
+.slider_btn li:nth-child(1){ float:left; margin-right:20px; }
+.slider_btn li:nth-child(2){ float:right; }
+.slider_btn li:nth-child(3) button{ width:100px;}
+
+section {width:100%;}
+
+#we {width:100%; height:770px; margin:0 auto; background-color:#eee; display:flex; justify-content:center; flex-flow:column wrap; align-content:center; align-items:center;}
+.us {width:90%; height:720px; margin:0 auto; display:flex;  justify-content:center; flex-flow:row wrap;}
+.wetxt {width:90%; height:80px; display:flex; justify-content:center; align-items:center;}
+.us hr {width:90%px; height:0px; color:#ccc;}
+.wetxt h2 {font-size:35px; color:#666; font-family:"Microsoft Yi Baiti";}
+#webox1 {width:100%; height:220px; margin:0 auto; display:flex; flex-direction:column; justify-content:center; align-content:center; margin:50px 0 30px 0px; }
+.webx1 {width:90%; height:160px; display:flex; justify-content:flex-end; flex-flow:column wrap; align-items:center;  margin:85px 0 0 20px;}
+.webx1 h3 {font-weight:bold; font-size:25px; font-family:"Microsoft Yi Baiti"; margin:0 0 0 30px;}
+.webx1 p {font-family:"Microsoft Yi Baiti" font-size:18px; text-align:center;}
+.webx2 {width:90%; height:160px; display:flex; justify-content:center; flex-direction:column; align-items:center; margin:20px 0 0 20px;}
+.webx2 h3 {font-weight:bold; font-size:25px; font-family:"Microsoft Yi Baiti"; margin:0 0 0 30px;}
+.webx2 p {font-family:"Microsoft Yi Baiti" font-size:18px; text-align:center;}
+.webx3 {width:90%; height:160px; display:flex; justify-content:center; flex-direction:column; align-items:center;  margin:10px 0 0 20px;}
+.webx3 h3 {font-weight:bold; font-size:25px; font-family:"Microsoft Yi Baiti"; margin:0 0 0 30px;}
+.webx3 p {font-family:"Microsoft Yi Baiti" font-size:18px; text-align:center;} 
+#webox2 {width:100%; height:220px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content:center; align-content:center;}
+.webx4 {width:90%; height:200px;  display:flex;  justify-content:center; flex-flow:column wrap; align-items:center; align-content:flex-end; margin:100px 0 0 20px;}
+.webx4 h3 {font-size:30px; font-family:"Microsoft Yi Baiti"}
+.webx4 p {font-family:"Microsoft Yi Baiti"; font-size:20px; text-align:center;}
+
+.webx4 button {width:90px; height:30px; border:none; background-color:#000; border-radius:10px 10px; color:#fff; float:left; margin:10px 0 0 0px;}
+.webx4 button:hover {background-color:#b79e6e;}
+
+#team {width:100%; height:880px; margin:0 auto; display:flex; flex-direction:column; justify-content:center;}
+.teambox {width:100%; height:835px; margin:0 auto; display:flex; flex-flow:column wrap; justify-content:center; align-items:center; }
+.teamtxt {width:90%; height:100px; display:flex; justify-content:center; flex-flow:row wrap; align-content:center; align-items:flex-end; }
+.txt1 {width:45%; height:45px; display:flex; justify-content:center; align-items:center; margin:0 auto;}
+.txt2 {width:45%; height:45px; display:flex; justify-content:center; align-items:center; margin:10px 0 0 0px;}
+.teamtxt .txt1 h3 {color:#000; text-decoration:underline; text-decoration-color:orange; font-size:35px; margin:50px 0 0 0px; font-family:"Microsoft Yi Baiti";}
+.teamtxt .txt2 p {font-size:20px; color:#666; margin:20px 0 0 0px; font-family:"Microsoft Yi Baiti";}
+.people {width:90%; height:615px; margin:0 auto; display:flex; justify-content:center; align-content:center; align-items:center; flex-flow:column nowrap;}
+.doe {width:90%; height:505px;  box-sizing:border box; margin:0px 0 0 15px; display:flex; justify-content:center; align-items:flex-end; flex-flow:column nowrap;}
+.doe img {width:100%; height:60%; float:left;}
+.doe img:hover {opacity:0.7;}
+.doe h4 {text-align:center; color:#000; font-size:30px; margin:10px 0 0 0px; font-family:"Microsoft Yi Baiti";}
+.doe p {text-align:center; color:#666; font-size:20px; padding:10px 10px; font-family:"Microsoft Yi Baiti";}
+.clark {width:90%; height:505px;  margin:0px 0 0 15px; display:flex; justify-content: center; align-content:center; align-items:flex-end; flex-direction:column;}
+.clark img {width:100%; height:60%; float:left;}
+.clark img:hover {opacity:0.7;}
+.clark h4 {text-align:center; color:#000; font-size:30px; margin:10px 0 0 0px; font-family:"Microsoft Yi Baiti";}
+.clark p {text-align:center; color:#666; font-size:20px; padding:10px 10px; font-family:"Microsoft Yi Baiti";}
+.smith {width:90%; height:505px;  margin:0px 0 0 15px; display:flex; justify-content: center; align-content:center; align-items:flex-end; flex-direction:column;}
+.smith img {width:100%; height:60%; float:left;}
+.smith img:hover {opacity:0.7;}
+.smith h4 {text-align:center; color:#000; font-size:30px; margin:10px 0 0 0px; font-family:"Microsoft Yi Baiti";}
+.smith p {text-align:center; color:#666; font-size:20px; padding:10px 10px; font-family:"Microsoft Yi Baiti";}
+
+.doe .social {width:100%; height:35px; text-align:center; margin:10px 0 0 20px; cursor:pointer;}
+.clark .social {width:100%; height:35px; text-align:center; margin:10px 20px 0 40px; cursor:pointer;}
+.smith .social {width:100%; height:35px; text-align:center; margin:10px 20px 0 40px; cursor:pointer;}
+.social i {color:#666; margin:0px 20px 0 0px;}
+.social i:hover {color:orange;}
+
+
+#banner {width:95%; height:335px; background:url("../img/banner2.jpg"); background-attachment:fixed; background-position:center; background-repeat:no-repeat; background-size:cover; margin:0 auto; background-color:brown; display:flex; justify-content:center; align-items:center;}
+.bannertxt {width:97%; height:95%;}
+.bntxt {color:#fff; font-size:35px; text-align:center; font-family:"Orator10 BT";}
+
+
+#work {width:100%; height:970px; margin:0 auto; background-color:#f2f2f2; display:flex; flex-flow:row wrap; align-items:center;}
+
+#wrbox {width:100%; height:765px; margin:0 auto; display:flex; flex-flow:row wrap; justify-content:center; align-items:center; align-content:center;}
+.wrtxt {width:90%; height:50px; display:flex; justify-content:center; align-items:center; flex-flow:row wrap;}
+.wrtxt h3 {font-size:40px; color:#000; font-family:"Microsoft Yi Baiti"; font-weight:lighter; }
+.wrtxt span {color:#b79e6e; text-align:center;}
+
+
+.wrtable {width:100%; height:700px; margin:0 auto; display:flex; flex-flow:row wrap; justify-content:center; align-items:center;}
+ figure:before {content:"\e17c"; color:gold;  font-family:thegem-icons; vertical-align:middle; padding-right:15px 0 10px 0px;}
+ figure {font-weight:lighter; font-family:"Microsoft Yi Baiti"; font-size:15px; }
+
+.br {width:100%; height:530px;  display:flex; flex-wrap:wrap; justify-content:center; align-content:center; margin:50px 5px 0 0px; position:relative;}
+.monney1 {width:100px; height:100px; background-color:#fff; z-index:4; border-radius:100%; position:absolute; top:-10%; left:35%;}
+.monney1 h3 {text-align:center; margin:10px 0 0 0px; font-size:30px; color:orange;}
+.monney1 h4 {text-align:center; color:orange;}
+
+.brimg {width:415px; height:240px; background-color:coral; background:url("../img/mi1.jpg"); background-size:cover; background-position:center;}
+.brimg .three {width:100%; height:240px; background: linear-gradient(to bottom left, black calc(50% - 1px), black, transparent calc(50% + 1px) );
+  opacity:0.5;
+}
+.brtable {width:400px; height:350px; background-color:#fff;}
+.brtable button {background-color:#000; padding:15px; border:none; border-radius:20px; color:#fff; margin:40px 0 0 120px;}
+.brtable button:hover {background-color:#b79e6e; color:#000;}
+.tb {height:50px; font-size:20px; margin:20px 0 0 0px;}
+.tb1 {height:50px; font-size:20px;}
+.tb2 {height:50px; font-size:20px; background-color:#eee;}
+.tb3 {height:50px; font-size:20px;}
+.tb4 {height:50px; font-size:20px; background-color:#eee;}
+
+.lc {width:100%; height:530px;  display:flex; flex-wrap:wrap; justify-content:center; align-content:center; margin:50px 5px 0 0px; position:relative;}
+.lcimg {width:415px; height:240px; background-color:coral; background:url("../img/fd10.jpg"); background-size:cover; background-position:center;}
+.lcimg .three {width:100%; height:240px; background: linear-gradient(to bottom left, black calc(50% - 1px), black, transparent calc(50% + 1px) );
+  opacity:0.5;
+}
+.monney2 {width:100px; height:100px; background-color:#fff; z-index:4; border-radius:100%;  position:absolute; top:-10%; left:35%;}
+.monney2 h3 {text-align:center; margin:10px 0 0 0px; font-size:30px; color:orange;}
+.monney2 h4 {text-align:center; color:orange;}
+.lctable {width:400px; height:350px; background-color:#fff;}
+.lctable button {background-color:#000; padding:15px; border:none; border-radius:20px; color:#fff; float:left; margin:40px 0 0 120px;}
+.lctable button:hover {background-color:#b79e6e; color:#000; color:#000;}
+.tb {height:40px; font-size:18px;}
+.tb1 {height:40px; font-size:18px;}
+.tb2 {height:40px; font-size:18px; background-color:#eee;}
+.tb3 {height:40px; font-size:18px;}
+.tb4 {height:40px; font-size:18px; background-color:#eee;}
+.tb5 {height:40px; font-size:18px;}
+
+
+
+
+.dn {width:100%; height:530px;  display:flex; flex-wrap:wrap; justify-content:center; align-content:center;margin:50px 5px 0 0px; position:relative;}
+.dnimg {width:400px; height:240px; background-color:coral; background:url("../img/fd4.jpg"); background-size:cover; background-position:center;}
+.dnimg .three {width:100%; height:240px; background: linear-gradient(to bottom left, black calc(50% - 1px), black, transparent calc(50% + 1px) );
+  opacity:0.5;
+}
+.monney3 {width:100px; height:100px; background-color:#fff; z-index:10; border-radius:100%;  position:absolute; top:-10%; left:35%;}
+.monney3 h3 {text-align:center; margin:10px 0 0 0px; font-size:30px; color:orange;}
+.monney3 h4 {text-align:center; color:orange;}
+.dntable {width:400px; height:350px; background-color:#fff;}
+.dntable button {background-color:#000; padding:15px; border:none; border-radius:20px; color:#fff; margin:40px 0 0 120px;}
+.dntable button:hover {background-color:#b79e6e; color:#000; color:#000;}
+.tb {height:40px; font-size:18px;}
+.tb1 {height:40px; font-size:18px;}
+.tb2 {height:40px; font-size:18px; background-color:#eee;}
+.tb3 {height:40px; font-size:18px;}
+.tb4 {height:40px; font-size:18px; background-color:#eee;}
+
+
+
+
+#fact {width:100%; height:540px; margin:0 auto; display:flex; justify-content:center;}
+.factbox {width:90%; height:550px; margin:0 auto; display:flex; justify-content:center; flex-flow:row wrap; align-items: center;}
+
+.facttxt {width:90%; height:80px; float:left; display:flex; justify-content:center; align-items:center;}
+.facttxt h3 {font-size:40px; color:#000; font-family:"Microsoft Yi Baiti"; font-weight:lighter;}
+.facttxt span {text-decoration:underline; text-decoration-color:orange;}
+.factcounter {width:100%; height:205px; display:flex; flex-flow:row wrap; justify-content:center; align-content:center}
+.ct {width:200px; height:160px; display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-end;}
+.ct span {font-size:50px; font-weight:bold; }
+.cttxt {width:190px; height:30px;}
+.cttxt h3 {text-align:center; color:#ccc; font-size:20px; font-family:"Microsoft Yi Baiti";}
+.cf {width:200px; height:160px; margin:0 0 0 10px; display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-end;}
+.cf span {font-size:50px; font-weight:bold;}
+.cftxt {width:190px; height:30px;}
+.cftxt h3 {text-align:center; color:#ccc; font-size:20px; font-family:"Microsoft Yi Baiti";}
+.od {width:200px; height:160px; margin:0 0 0 10px; display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-end;}
+.od span {font-size:50px; font-weight:bold;}
+.odtxt {width:190px; height:30px;}
+.odtxt h3 {text-align:center; color:#ccc; font-size:20px; font-family:"Microsoft Yi Baiti";}
+.wc {width:200px; height:160px; margin:0 0 0 10px; display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-end;}
+.wc span {font-size:50px; font-weight:bold;}
+.wctxt {width:190px; height:30px;}
+.wctxt h3 {text-align:center; color:#ccc; font-size:20px; font-family:"Microsoft Yi Baiti";}
+
+#service {width:100%; height:510px; margin:0 auto; background-color:silver; display:flex; flex-wrap:wrap; justify-content:center; align-content:center; background-image:url("../img/sv5.jpg"); background-position:center; background-repeat:no-repeat; background-size:cover;}
+.svicon1 {width:150px; height:150px; display:flex; justify-content:center; flex-wrap:wrap; align-content:center; align-items:flex-end; margin:0px 0 0 100px; border:1px solid #fff;}
+.svicon1:hover {background-color:tomato;}
+.
+.svicon1 img {margin:0px 0 15px 0px;}
+ i {margin:0px 0 20px 0px;color:#000;}
+
+.svicon2 {width:150px; height:150px; margin:0px 0 0 100px; display:flex; justify-content:center; flex-wrap:wrap; align-content:center; align-items:flex-end; border:1px solid #fff;}
+.svicon2:hover {background-color:tomato;}
+.svicon2 img {margin:0px 0 15px 0px;}
+.svicon3 {width:150px; height:150px; margin:0px 0 0 100px; display:flex; justify-content:center; flex-wrap:wrap; align-content:center; align-items:flex-end; border:1px solid #fff;}
+.svicon3:hover {background-color:tomato;}
+.svicon3 img {margin:0px 0 15px 0px;}
+.svicon4 {width:150px; height:150px; margin:0px 0 0 100px; display:flex; justify-content:center; flex-wrap:wrap; align-content:center; align-items:flex-end; border:1px solid #fff;}
+.svicon4:hover {background-color:tomato;}
+.svicon4 img {margin:0px 0 15px 0px;}
+.svicon5 {width:150px; height:150px; margin:0px 0 0 100px; display:flex; justify-content:center; flex-wrap:wrap; align-content:center; align-items:flex-end; border:1px solid #fff;}
+.svicon5:hover {background-color:tomato;}
+
+.svtxt1 {width:150px; height:45px;}
+.svtxt1 h3 {text-align:center; color:#fff; font-family:"Microsoft Yi Baiti"; font-size:20px;} 
+
+#blog {width:100%; height:1300px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content:center;}
+#blog h2 {font-family:"Microsoft Yi Baiti"; font-size:45px;  margin;text-align:center; display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-start;}
+.blogbox {width:1175px; height:1020px; display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center;}
+.bgcenter {width:1260px; height:1187; margin:0 auto; display:flex; flex-flow:row wrap; justify-content:center ; align-content:center;}
+
+.bgtxt h3 {text-align:center; font-size:35px; font-weight:lighter; font-family:"Microsoft Yi Baiti";}
+.bgtxt span {text-align:center; margin:0px 0 0 35px; color:#b79e6e;  font-family:"Microsoft Yi Baiti"; font-size:20px;}
+.bgbox1 {width:340px; height:400px; margin:0px 0px -100px 50px; display:flex; justify-content:center; flex-wrap:wrap; align-items:center; }
+.bgtxt1 {width:320px; height:30px;  display:flex; justify-content:flex-start; align-content:center; align-items:flex-start;}
+.bgtxt1 h3 {text-align:left; color:#666; margin:0px 10px 0 0px;}
+.bgtxt1 img {float:left; margin:0px 0px 0 0px;}
+.bgtxt2 {width:315px; height:130px;}
+.bgimg1 {width:320px; height:240px; overflow:hidden; background:url("../img/fd7.jpg"); background-size:cover; background-position:center center;}
+.bgimg2 {width:320px; height:240px; overflow:hidden; background:url("../img/fd6.jpg"); background-size:cover; background-position:center center;}
+.bgimg3 {width:320px; height:240px; overflow:hidden; background:url("../img/fd8.jpg"); background-size:cover; background-position:center bottom;}
+.bgimg4 {width:320px; height:240px; overflow:hidden; background:url("../img/fd9.jpg"); background-size:cover; background-position:center top;}
+.bgimg5 {width:320px; height:220px; overflow:hidden; background:url("../img/b1.jpg"); background-size:cover; background-position:center center;}
+.bgimg6 {width:320px; height:220px; overflow:hidden; background:url("../img/di1.jpg"); background-size:cover; background-position:center center;}
+
+.bgbox2 {width:340px; height:495px; margin:95px 0 -90px 0px; display:flex; justify-content:center; flex-wrap:wrap; align-items:center}
+.bgbox3 {width:340px; height:465px; margin:50px 0 -100px 0px; display:flex; justify-content:center; flex-wrap:wrap; align-items:center}
+.bgbox4 {width:340px; height:460px; margin:0px 0 0 45px; display:flex; justify-content:center; flex-wrap:wrap; align-items:center}
+.bgbox5 {width:340px; height:360px; margin:50px 0 0px 0px; display:flex; justify-content:center; flex-wrap:wrap; align-items:center}
+.bgbox6 {width:340px; height:380px; margin:0px 0px 0 0 0px; display:flex; justify-content:center; flex-wrap:wrap; align-items:center;}
+.bgtxt2 span {color:orange; cursor:pointer; float: right; margin:20px 0 0 0px;}
+.bgtxt2 span:after {content:""; display:block; width:320px; border-bottom:1px solid #bcbcbc; margin:20px auto;}
+
+#video {width:100%; height:540px; margin:0 auto; position:relative; background-color:olive;}
+#bg {width:100%; height:35vmax; position:relative; overflow:hidden;}
+.textbox {position:absolute; top:50%; left:30%;}
+.textbox h1 {font-size:40px; color:#fff;}
+.textbox p {font-size:20px; color:#fff;}
+.textbox button {background-color:#000; color:#fff; border:none; border-radius:10px; padding:10px; float:right; margin:30px 350px 0 0px;}
+.textbox button:hover {background-color:#b79e6e;}
+
+video {position:relative; top:0; left:0; width:100%; }
+
+#test {width:100%; height:510px; margin:0 auto; display:flex; justify-content:center; align-items:center;}
+.txt {width:930px; height:355px;  display:flex; justify-content:center; align-items:center; flex-flow:row wrap;}
+.txt1 {width:310px; height:90px;}
+.txt1 h1 .d:after {text-decoration:underline; text-decoration-color:orange;}
+.txt2 {width:934px; height:95px;}
+.txt3 {width:325px; height:40px;}
+.txt3  h4 {text-align:center; color:#000;}
+.txt3 .c {text-align:center; color:orange;}
+.txt h2{text-align:center; font-size:30px; font-family:"Microsoft Yi Baiti";}
+
+ 
+#donate {width:100%; height:140px; margin:0 auto; background-color:#ededed; display:flex; justify-content:center; align-content:center; align-items:center;}
+.dnimg1 {width:195px; height:115px; margin:10px 0 0 10px;}
+.dnimg1 img {padding:20px;}
+.dnimg2 {width:195px; height:115px; margin:10px 0 0 10px;}
+.dnimg2 img {padding:20px;}
+.dnimg3 {width:195px; height:115px; margin:10px 0 0 10px;}
+.dnimg3 img {padding:20px;}
+.dnimg4 {width:195px; height:115px; margin:10px 0 0 10px;}
+.dnimg4 img {padding:20px;}
+.dnimg5 {width:195px; height:115px; margin:10px 0 0 10px;}
+.dnimg5 img {padding:20px;}
+.dnimg6 {width:195px; height:115px; margin:10px 0 0 10px;}
+.dnimg6 img {padding:20px;}
+
+
+}
+
+
+@media (min-width:600px) {
+
+#slider {overflow:hidden; margin:0 auto; position:relative;}
+.sdtxt { width:60%; height:300px; margin:0 auto; position:absolute; top:35%; left:25%;}
+.sdtxt h3 {text-align:center; font-size:45px; color:#fff; font-weight:lighter; font-family:"Microsoft Yi Baiti"; margin:10px 0 0 0px;}
+.sdtxt h4 {text-align:center; font-size:80px; color:#fff; font-weight:bold; font-family:"Microsoft Yi Baiti"; margin:10px 0 0 0px;}
+.sdtxt p {text-align:center; font-size:25px; color:#fff; font-family:"Microsoft Yi Baiti"; margin:20px 0 0 0px;}
+.slider_inner li{ float:left;}
+
+
+.slider_btn{ 
+   position: absolute; top:320px; 
+}
+
+.slider_btn button{ 
+   width:50px; height:50px;
+   border:0; background: rgba(0,0,0,0.7);
+   color:#fff; font-size:20px; font-weight:bold; cursor: pointer;
+ }
+
+.slider_btn li:nth-child(1){ float:left; margin-right:20px; }
+.slider_btn li:nth-child(2){ float:right; }
+.slider_btn li:nth-child(3) button{ width:100px;}
+
+section {width:100%;}
+
+#we {width:90%; height:770px; margin:0 auto; display:flex; justify-content:center; flex-flow:row wrap; align-content:center; align-items:center; background-color:#fbfbfb;}
+.us {width:60%; height:720px; margin:0 auto; display:flex; justify-content:center; flex-flow:row wrap;}
+.wetxt {width:80%; height:80px; display:flex; justify-content:center; align-items:center;}
+.us hr {width:1400px; height:0px; color:#ccc;}
+.wetxt h2 {font-size:35px; color:#666; font-family:"Microsoft Yi Baiti";}
+#webox1 {width:1280px; height:220px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content:center; align-content:space-around; margin:0px 0 30px 0px; }
+.webx1 {width:360px; height:160px; display:flex; justify-content:flex-start; flex-wrap:wrap; align-items:center;  margin:20px 0 0 20px;}
+.webx1 h3 {font-weight:bold; font-size:25px; font-family:"Microsoft Yi Baiti"; margin:0 0 0 30px;}
+.webx1 p {font-family:"Microsoft Yi Baiti" font-size:18px; text-align:left;}
+.webx2 {width:360px; height:160px; display:flex; justify-content:flex-start; flex-wrap:wrap; align-items:center; margin:20px 0 0 80px;}
+.webx2 h3 {font-weight:bold; font-size:25px; font-family:"Microsoft Yi Baiti"; margin:0 0 0 30px;}
+.webx2 p {font-family:"Microsoft Yi Baiti" font-size:18px; text-align:left;}
+.webx3 {width:360px; height:160px; display:flex; justify-content:flex-start; flex-wrap:wrap; align-items:center;  margin:20px 0 0 80px;}
+.webx3 h3 {font-weight:bold; font-size:25px; font-family:"Microsoft Yi Baiti"; margin:0 0 0 30px;}
+.webx3 p {font-family:"Microsoft Yi Baiti" font-size:18px; text-align:left;} 
+#webox2 {width:1280px; height:220px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content:center; align-content:center;}
+.webx4 {width:745px; height:200px;  display:flex;  justify-content:center; flex-wrap:wrap; align-items:center; margin:10px 0 0 20px;}
+.webx4 h3 {font-size:30px; font-family:"Microsoft Yi Baiti"}
+.webx4 p {font-family:"Microsoft Yi Baiti"; font-size:20px; text-align:center;}
+
+.webx4 button {width:100px; height:50px; border:none; background-color:#000; border-radius:10px 10px; color:#fff; float:left; margin:10px 0 0 20px;}
+.webx4 button:hover {background-color:#b79e6e;}
+
+#team {width:100%; height:880px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content:center; ;}
+.teambox {width:1230px; height:835px; margin:0 auto; display:flex; flex-flow:row wrap; justify-content:center; align-items:center; }
+.teamtxt {width:800px; height:100px; display:flex; justify-content:center; flex-flow:row wrap; align-content:center; align-items:flex-end; }
+.txt1 {width:200px; height:45px; display:flex; justify-content:center; align-items:center; margin:0 auto;}
+.txt2 {width:800px; height:45px; display:flex; justify-content:center; align-items:center; margin:10px 0 0 0px;}
+.teamtxt .txt1 h3 {color:#000; text-decoration:underline; text-decoration-color:orange; font-size:35px; margin:50px 0 0 0px; font-family:"Microsoft Yi Baiti";}
+.teamtxt .txt2 p {font-size:20px; color:#666; margin:20px 0 0 0px; font-family:"Microsoft Yi Baiti";}
+.people {width:1265px; height:615px; margin:0 auto; display:flex; justify-content:center; align-content:center; align-items:center;}
+.doe {width:370px; height:505px;  box-sizing:border box; margin:0px 0 0 15px; display:flex; justify-content: center; align-content:center; align-items:center; flex-wrap:wrap;}
+.doe img {width:90%; height:60%; float:left;}
+.doe img:hover {opacity:0.7;}
+.doe h4 {text-align:center; color:#000; font-size:30px; margin:10px 0 0 0px; font-family:"Microsoft Yi Baiti";}
+.doe p {text-align:center; color:#666; font-size:20px; padding:10px 10px; font-family:"Microsoft Yi Baiti";}
+.clark {width:370px; height:505px;  margin:0px 0 0 15px; display:flex; justify-content: center; align-content:center; align-items:center; flex-wrap:wrap;}
+.clark img {width:90%; height:60%; float:left;}
+.clark img:hover {opacity:0.7;}
+.clark h4 {text-align:center; color:#000; font-size:30px; margin:10px 0 0 0px; font-family:"Microsoft Yi Baiti";}
+.clark p {text-align:center; color:#666; font-size:20px; padding:10px 10px; font-family:"Microsoft Yi Baiti";}
+.smith {width:370px; height:505px;  margin:0px 0 0 15px; display:flex; justify-content: center; align-content:center; align-items:center; flex-wrap:wrap;}
+.smith img {width:90%; height:60%; float:left;}
+.smith img:hover {opacity:0.7;}
+.smith h4 {text-align:center; color:#000; font-size:30px; margin:10px 0 0 0px; font-family:"Microsoft Yi Baiti";}
+.smith p {text-align:center; color:#666; font-size:20px; padding:10px 10px; font-family:"Microsoft Yi Baiti";}
+
+.doe .social {width:290px; height:35px; text-align:center; margin:10px 0 0 20px; cursor:pointer;}
+.clark .social {width:290px; height:35px; text-align:center; margin:10px 20px 0 40px; cursor:pointer;}
+.smith .social {width:290px; height:35px; text-align:center; margin:10px 20px 0 40px; cursor:pointer;}
+.social i {color:#666; margin:0px 20px 0 0px;}
+
+
+#banner {width:100%; height:335px; background:url("../img/banner2.jpg"); background-attachment:fixed; background-position:center; background-repeat:no-repeat; background-size:cover; margin:0 auto; background-color:brown; display:flex; justify-content:center; align-items:center;}
+.bannertxt {width:1145px; height:145px;}
+.bntxt {color:#fff; font-size:35px; text-align:center; font-family:"Orator10 BT";}
+
+
+#work {width:100%; height:970px; margin:0 auto; background-color:#f2f2f2; display:flex; flex-flow:row wrap; align-items:center;}
+
+#wrbox {width:1400px; height:765px; margin:0 auto; display:flex; flex-flow:row wrap; justify-content:center; align-items:center; align-content:center;}
+.wrtxt {width:300px; height:50px; display:flex; justify-content:center; align-items:center; flex-flow:row wrap;}
+.wrtxt h3 {font-size:40px; color:#000; font-family:"Microsoft Yi Baiti"; font-weight:lighter; }
+.wrtxt span {color:#b79e6e; text-align:center;}
+
+
+.wrtable {width:1360px; height:700px; margin:0 auto; display:flex; flex-flow:row wrap; justify-content:center; align-items:center;}
+ figure:before {content:"\e17c"; color:gold;  font-family:thegem-icons; vertical-align:middle; padding-right:15px 0 10px 0px;}
+ figure {font-weight:lighter; font-family:"Microsoft Yi Baiti"; font-size:15px; }
+
+.br {width:400px; height:530px;  display:flex; flex-wrap:wrap; justify-content:center; align-content:center; margin:50px 5px 0 0px; position:relative;}
+.monney1 {width:100px; height:100px; background-color:#fff; z-index:4; border-radius:100%; position:absolute; top:-10%; left:35%;}
+.monney1 h3 {text-align:center; margin:10px 0 0 0px; font-size:30px; color:orange;}
+.monney1 h4 {text-align:center; color:orange;}
+
+.brimg {width:415px; height:240px; background-color:coral; background:url("../img/mi1.jpg"); background-size:cover; background-position:center;}
+.brimg .three {width:100%; height:240px; background: linear-gradient(to bottom left, black calc(50% - 1px), black, transparent calc(50% + 1px) );
+  opacity:0.5;
+}
+.brtable {width:400px; height:350px; background-color:#fff;}
+.brtable button {background-color:#000; padding:15px; border:none; border-radius:20px; color:#fff; margin:40px 0 0 120px;}
+.brtable button:hover {background-color:#b79e6e; color:#000;}
+.tb {height:50px; font-size:20px; margin:20px 0 0 0px;}
+.tb1 {height:50px; font-size:20px;}
+.tb2 {height:50px; font-size:20px; background-color:#eee;}
+.tb3 {height:50px; font-size:20px;}
+.tb4 {height:50px; font-size:20px; background-color:#eee;}
+
+.lc {width:400px; height:530px;  display:flex; flex-wrap:wrap; justify-content:center; align-content:center; margin:50px 5px 0 0px; position:relative;}
+.lcimg {width:415px; height:240px; background-color:coral; background:url("../img/fd10.jpg"); background-size:cover; background-position:center;}
+.lcimg .three {width:100%; height:240px; background: linear-gradient(to bottom left, black calc(50% - 1px), black, transparent calc(50% + 1px) );
+  opacity:0.5;
+}
+.monney2 {width:100px; height:100px; background-color:#fff; z-index:4; border-radius:100%;  position:absolute; top:-10%; left:35%;}
+.monney2 h3 {text-align:center; margin:10px 0 0 0px; font-size:30px; color:orange;}
+.monney2 h4 {text-align:center; color:orange;}
+.lctable {width:400px; height:350px; background-color:#fff;}
+.lctable button {background-color:#000; padding:15px; border:none; border-radius:20px; color:#fff; float:left; margin:40px 0 0 120px;}
+.lctable button:hover {background-color:#b79e6e; color:#000; color:#000;}
+.tb {height:40px; font-size:18px;}
+.tb1 {height:40px; font-size:18px;}
+.tb2 {height:40px; font-size:18px; background-color:#eee;}
+.tb3 {height:40px; font-size:18px;}
+.tb4 {height:40px; font-size:18px; background-color:#eee;}
+.tb5 {height:40px; font-size:18px;}
+
+
+
+
+.dn {width:400px; height:530px;  display:flex; flex-wrap:wrap; justify-content:center; align-content:center;margin:50px 5px 0 0px; position:relative;}
+.dnimg {width:400px; height:240px; background-color:coral; background:url("../img/fd4.jpg"); background-size:cover; background-position:center;}
+.dnimg .three {width:100%; height:240px; background: linear-gradient(to bottom left, black calc(50% - 1px), black, transparent calc(50% + 1px) );
+  opacity:0.5;
+}
+.monney3 {width:100px; height:100px; background-color:#fff; z-index:10; border-radius:100%;  position:absolute; top:-10%; left:35%;}
+.monney3 h3 {text-align:center; margin:10px 0 0 0px; font-size:30px; color:orange;}
+.monney3 h4 {text-align:center; color:orange;}
+.dntable {width:400px; height:350px; background-color:#fff;}
+.dntable button {background-color:#000; padding:15px; border:none; border-radius:20px; color:#fff; margin:40px 0 0 120px;}
+.dntable button:hover {background-color:#b79e6e; color:#000; color:#000;}
+.tb {height:40px; font-size:18px;}
+.tb1 {height:40px; font-size:18px;}
+.tb2 {height:40px; font-size:18px; background-color:#eee;}
+.tb3 {height:40px; font-size:18px;}
+.tb4 {height:40px; font-size:18px; background-color:#eee;}
+
+
+
+
+#fact {width:100%; height:540px; margin:0 auto; display:flex; justify-content:center;}
+.factbox {width:1360px; height:550px; margin:0 auto; display:flex; justify-content:center; flex-flow:row wrap; align-items: center;}
+
+.facttxt {width:383px; height:80px; float:left; display:flex; justify-content:center; align-items:center;}
+.facttxt h3 {font-size:40px; color:#000; font-family:"Microsoft Yi Baiti"; font-weight:lighter;}
+.facttxt span {text-decoration:underline; text-decoration-color:orange;}
+.factcounter {width:1060px; height:205px; display:flex; flex-flow:row wrap; justify-content:center; align-content:center}
+.ct {width:200px; height:160px; display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-end;}
+.ct span {font-size:50px; font-weight:bold; }
+.cttxt {width:190px; height:30px;}
+.cttxt h3 {text-align:center; color:#ccc; font-size:20px; font-family:"Microsoft Yi Baiti";}
+.cf {width:200px; height:160px; margin:0 0 0 10px; display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-end;}
+.cf span {font-size:50px; font-weight:bold;}
+.cftxt {width:190px; height:30px;}
+.cftxt h3 {text-align:center; color:#ccc; font-size:20px; font-family:"Microsoft Yi Baiti";}
+.od {width:200px; height:160px; margin:0 0 0 10px; display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-end;}
+.od span {font-size:50px; font-weight:bold;}
+.odtxt {width:190px; height:30px;}
+.odtxt h3 {text-align:center; color:#ccc; font-size:20px; font-family:"Microsoft Yi Baiti";}
+.wc {width:200px; height:160px; margin:0 0 0 10px; display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-end;}
+.wc span {font-size:50px; font-weight:bold;}
+.wctxt {width:190px; height:30px;}
+.wctxt h3 {text-align:center; color:#ccc; font-size:20px; font-family:"Microsoft Yi Baiti";}
+
+#service {width:100%; height:510px; margin:0 auto; background-color:silver; display:flex; flex-wrap:wrap; justify-content:center; align-content:center; background-image:url("../img/sv5.jpg"); background-position:center; background-repeat:no-repeat; background-size:cover;}
+.svicon1 {width:150px; height:150px; display:flex; justify-content:center; flex-wrap:wrap; align-content:center; align-items:flex-end; margin:0px 0 0 100px; border:1px solid #fff;}
+.svicon1:hover {background-color:tomato;}
+.
+.svicon1 img {margin:0px 0 15px 0px;}
+ i {margin:0px 0 20px 0px;color:#000;}
+
+.svicon2 {width:150px; height:150px; margin:0px 0 0 100px; display:flex; justify-content:center; flex-wrap:wrap; align-content:center; align-items:flex-end; border:1px solid #fff;}
+.svicon2:hover {background-color:tomato;}
+.svicon2 img {margin:0px 0 15px 0px;}
+.svicon3 {width:150px; height:150px; margin:0px 0 0 100px; display:flex; justify-content:center; flex-wrap:wrap; align-content:center; align-items:flex-end; border:1px solid #fff;}
+.svicon3:hover {background-color:tomato;}
+.svicon3 img {margin:0px 0 15px 0px;}
+.svicon4 {width:150px; height:150px; margin:0px 0 0 100px; display:flex; justify-content:center; flex-wrap:wrap; align-content:center; align-items:flex-end; border:1px solid #fff;}
+.svicon4:hover {background-color:tomato;}
+.svicon4 img {margin:0px 0 15px 0px;}
+.svicon5 {width:150px; height:150px; margin:0px 0 0 100px; display:flex; justify-content:center; flex-wrap:wrap; align-content:center; align-items:flex-end; border:1px solid #fff;}
+.svicon5:hover {background-color:tomato;}
+
+.svtxt1 {width:150px; height:45px;}
+.svtxt1 h3 {text-align:center; color:#fff; font-family:"Microsoft Yi Baiti"; font-size:20px;} 
+
+#blog {width:100%; height:1300px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content:center;}
+#blog h2 {font-family:"Microsoft Yi Baiti"; font-size:45px;  margin;text-align:center; display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-start;}
+.blogbox {width:1175px; height:1020px; display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center;}
+.bgcenter {width:1260px; height:1187; margin:0 auto; display:flex; flex-flow:row wrap; justify-content:center ; align-content:center;}
+
+.bgtxt h3 {text-align:center; font-size:35px; font-weight:lighter; font-family:"Microsoft Yi Baiti";}
+.bgtxt span {text-align:center; margin:0px 0 0 35px; color:#b79e6e;  font-family:"Microsoft Yi Baiti"; font-size:20px;}
+.bgbox1 {width:340px; height:400px; margin:0px 0px -100px 50px; display:flex; justify-content:center; flex-wrap:wrap; align-items:center; }
+.bgtxt1 {width:320px; height:30px;  display:flex; justify-content:flex-start; align-content:center; align-items:flex-start;}
+.bgtxt1 h3 {text-align:left; color:#666; margin:0px 10px 0 0px;}
+.bgtxt1 img {float:left; margin:0px 0px 0 0px;}
+.bgtxt2 {width:315px; height:130px;}
+.bgimg1 {width:320px; height:240px; overflow:hidden; background:url("../img/fd7.jpg"); background-size:cover; background-position:center center;}
+.bgimg2 {width:320px; height:240px; overflow:hidden; background:url("../img/fd6.jpg"); background-size:cover; background-position:center center;}
+.bgimg3 {width:320px; height:240px; overflow:hidden; background:url("../img/fd8.jpg"); background-size:cover; background-position:center bottom;}
+.bgimg4 {width:320px; height:240px; overflow:hidden; background:url("../img/fd9.jpg"); background-size:cover; background-position:center top;}
+.bgimg5 {width:320px; height:220px; overflow:hidden; background:url("../img/b1.jpg"); background-size:cover; background-position:center center;}
+.bgimg6 {width:320px; height:220px; overflow:hidden; background:url("../img/di1.jpg"); background-size:cover; background-position:center center;}
+
+.bgbox2 {width:340px; height:495px; margin:95px 0 -90px 0px; display:flex; justify-content:center; flex-wrap:wrap; align-items:center}
+.bgbox3 {width:340px; height:465px; margin:50px 0 -100px 0px; display:flex; justify-content:center; flex-wrap:wrap; align-items:center}
+.bgbox4 {width:340px; height:460px; margin:0px 0 0 45px; display:flex; justify-content:center; flex-wrap:wrap; align-items:center}
+.bgbox5 {width:340px; height:360px; margin:50px 0 0px 0px; display:flex; justify-content:center; flex-wrap:wrap; align-items:center}
+.bgbox6 {width:340px; height:380px; margin:0px 0px 0 0 0px; display:flex; justify-content:center; flex-wrap:wrap; align-items:center;}
+.bgtxt2 span {color:orange; cursor:pointer; float: right; margin:20px 0 0 0px;}
+.bgtxt2 span:after {content:""; display:block; width:320px; border-bottom:1px solid #bcbcbc; margin:20px auto;}
+
+#video {width:100%; height:540px; margin:0 auto; position:relative; background-color:olive;}
+#bg {width:100%; height:35vmax; position:relative; overflow:hidden;}
+.textbox {position:absolute; top:50%; left:30%;}
+.textbox h1 {font-size:40px; color:#fff;}
+.textbox p {font-size:20px; color:#fff;}
+.textbox button {background-color:#000; color:#fff; border:none; border-radius:10px; padding:10px; float:right; margin:30px 350px 0 0px;}
+.textbox button:hover {background-color:#b79e6e;}
+
+video {position:relative; top:0; left:0; width:100%; }
+
+#test {width:100%; height:510px; margin:0 auto; display:flex; justify-content:center; align-items:center;}
+.txt {width:930px; height:355px;  display:flex; justify-content:center; align-items:center; flex-flow:row wrap;}
+.txt1 {width:310px; height:90px;}
+.txt1 h1 .d:after {text-decoration:underline; text-decoration-color:orange;}
+.txt2 {width:934px; height:95px;}
+.txt3 {width:325px; height:40px;}
+.txt3  h4 {text-align:center; color:#000;}
+.txt3 .c {text-align:center; color:orange;}
+.txt h2{text-align:center; font-size:30px; font-family:"Microsoft Yi Baiti";}
+
+ 
+#donate {width:100%; height:140px; margin:0 auto; background-color:#ededed; display:flex; justify-content:center; align-content:center; align-items:center;}
+.dnimg1 {width:195px; height:115px; margin:10px 0 0 10px;}
+.dnimg1 img {padding:20px;}
+.dnimg2 {width:195px; height:115px; margin:10px 0 0 10px;}
+.dnimg2 img {padding:20px;}
+.dnimg3 {width:195px; height:115px; margin:10px 0 0 10px;}
+.dnimg3 img {padding:20px;}
+.dnimg4 {width:195px; height:115px; margin:10px 0 0 10px;}
+.dnimg4 img {padding:20px;}
+.dnimg5 {width:195px; height:115px; margin:10px 0 0 10px;}
+.dnimg5 img {padding:20px;}
+.dnimg6 {width:195px; height:115px; margin:10px 0 0 10px;}
+.dnimg6 img {padding:20px;}
+
+
+}
+
+
+@media (min-width:1100px) {
+#slider {overflow:hidden; margin:0 auto; position:relative;}
+.sdtxt { width:800px; height:300px; margin:0 auto; position:absolute; top:35%; left:25%;}
+.sdtxt h3 {text-align:center; font-size:45px; color:#fff; font-weight:lighter; font-family:"Microsoft Yi Baiti"; margin:10px 0 0 0px;}
+.sdtxt h4 {text-align:center; font-size:80px; color:#fff; font-weight:bold; font-family:"Microsoft Yi Baiti"; margin:10px 0 0 0px;}
+.sdtxt p {text-align:center; font-size:25px; color:#fff; font-family:"Microsoft Yi Baiti"; margin:20px 0 0 0px;}
+.slider_inner li{ float:left;}
+
+
+.slider_btn{ 
+   position: absolute; top:320px; 
+}
+
+.slider_btn button{ 
+   width:50px; height:50px;
+   border:0; background: rgba(0,0,0,0.7);
+   color:#fff; font-size:20px; font-weight:bold; cursor: pointer;
+ }
+
+.slider_btn li:nth-child(1){ float:left; margin-right:20px; }
+.slider_btn li:nth-child(2){ float:right; }
+.slider_btn li:nth-child(3) button{ width:100px;}
+
+section {width:100%;}
+
+#we {width:100%; height:770px; margin:0 auto; display:flex; justify-content:center; flex-flow:row wrap; align-content:center; align-items:center; background-color:#fbfbfb;}
+.us {width:1425px; height:720px; margin:0 auto; display:flex; justify-content:center; flex-flow:row wrap;}
+.wetxt {width:150px; height:80px; display:flex; justify-content:center; align-items:center;}
+.us hr {width:1400px; height:0px; color:#ccc;}
+.wetxt h2 {font-size:35px; color:#666; font-family:"Microsoft Yi Baiti";}
+#webox1 {width:1280px; height:220px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content:center; align-content:space-around; margin:0px 0 30px 0px; }
+.webx1 {width:360px; height:160px; display:flex; justify-content:flex-start; flex-wrap:wrap; align-items:center;  margin:20px 0 0 20px;}
+.webx1 h3 {font-weight:bold; font-size:25px; font-family:"Microsoft Yi Baiti"; margin:0 0 0 30px;}
+.webx1 p {font-family:"Microsoft Yi Baiti" font-size:18px; text-align:left;}
+.webx2 {width:360px; height:160px; display:flex; justify-content:flex-start; flex-wrap:wrap; align-items:center; margin:20px 0 0 80px;}
+.webx2 h3 {font-weight:bold; font-size:25px; font-family:"Microsoft Yi Baiti"; margin:0 0 0 30px;}
+.webx2 p {font-family:"Microsoft Yi Baiti" font-size:18px; text-align:left;}
+.webx3 {width:360px; height:160px; display:flex; justify-content:flex-start; flex-wrap:wrap; align-items:center;  margin:20px 0 0 80px;}
+.webx3 h3 {font-weight:bold; font-size:25px; font-family:"Microsoft Yi Baiti"; margin:0 0 0 30px;}
+.webx3 p {font-family:"Microsoft Yi Baiti" font-size:18px; text-align:left;} 
+#webox2 {width:1280px; height:220px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content:center; align-content:center;}
+.webx4 {width:745px; height:200px;  display:flex;  justify-content:center; flex-wrap:wrap; align-items:center; margin:10px 0 0 20px;}
+.webx4 h3 {font-size:30px; font-family:"Microsoft Yi Baiti"}
+.webx4 p {font-family:"Microsoft Yi Baiti"; font-size:20px; text-align:center;}
+
+.webx4 button {width:100px; height:50px; border:none; background-color:#000; border-radius:10px 10px; color:#fff; float:left; margin:10px 0 0 20px;}
+.webx4 button:hover {background-color:#b79e6e;}
+
+#team {width:100%; height:880px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content:center; ;}
+.teambox {width:1230px; height:835px; margin:0 auto; display:flex; flex-flow:row wrap; justify-content:center; align-items:center; }
+.teamtxt {width:800px; height:100px; display:flex; justify-content:center; flex-flow:row wrap; align-content:center; align-items:flex-end; }
+.txt1 {width:200px; height:45px; display:flex; justify-content:center; align-items:center; margin:0 auto;}
+.txt2 {width:800px; height:45px; display:flex; justify-content:center; align-items:center; margin:10px 0 0 0px;}
+.teamtxt .txt1 h3 {color:#000; text-decoration:underline; text-decoration-color:orange; font-size:35px; margin:50px 0 0 0px; font-family:"Microsoft Yi Baiti";}
+.teamtxt .txt2 p {font-size:20px; color:#666; margin:20px 0 0 0px; font-family:"Microsoft Yi Baiti";}
+.people {width:1265px; height:615px; margin:0 auto; display:flex; justify-content:center; align-content:center; align-items:center;}
+.doe {width:370px; height:505px;  box-sizing:border box; margin:0px 0 0 15px; display:flex; justify-content: center; align-content:center; align-items:center; flex-wrap:wrap;}
+.doe img {width:90%; height:60%; float:left;}
+.doe img:hover {opacity:0.7;}
+.doe h4 {text-align:center; color:#000; font-size:30px; margin:10px 0 0 0px; font-family:"Microsoft Yi Baiti";}
+.doe p {text-align:center; color:#666; font-size:20px; padding:10px 10px; font-family:"Microsoft Yi Baiti";}
+.clark {width:370px; height:505px;  margin:0px 0 0 15px; display:flex; justify-content: center; align-content:center; align-items:center; flex-wrap:wrap;}
+.clark img {width:90%; height:60%; float:left;}
+.clark img:hover {opacity:0.7;}
+.clark h4 {text-align:center; color:#000; font-size:30px; margin:10px 0 0 0px; font-family:"Microsoft Yi Baiti";}
+.clark p {text-align:center; color:#666; font-size:20px; padding:10px 10px; font-family:"Microsoft Yi Baiti";}
+.smith {width:370px; height:505px;  margin:0px 0 0 15px; display:flex; justify-content: center; align-content:center; align-items:center; flex-wrap:wrap;}
+.smith img {width:90%; height:60%; float:left;}
+.smith img:hover {opacity:0.7;}
+.smith h4 {text-align:center; color:#000; font-size:30px; margin:10px 0 0 0px; font-family:"Microsoft Yi Baiti";}
+.smith p {text-align:center; color:#666; font-size:20px; padding:10px 10px; font-family:"Microsoft Yi Baiti";}
+
+.doe .social {width:290px; height:35px; text-align:center; margin:10px 0 0 20px; cursor:pointer;}
+.clark .social {width:290px; height:35px; text-align:center; margin:10px 20px 0 40px; cursor:pointer;}
+.smith .social {width:290px; height:35px; text-align:center; margin:10px 20px 0 40px; cursor:pointer;}
+.social i {color:#666; margin:0px 20px 0 0px;}
+
+
+#banner {width:100%; height:335px; background:url("../img/banner2.jpg"); background-attachment:fixed; background-position:center; background-repeat:no-repeat; background-size:cover; margin:0 auto; background-color:brown; display:flex; justify-content:center; align-items:center;}
+.bannertxt {width:1145px; height:145px;}
+.bntxt {color:#fff; font-size:35px; text-align:center; font-family:"Orator10 BT";}
+
+
+#work {width:100%; height:970px; margin:0 auto; background-color:#f2f2f2; display:flex; flex-flow:row wrap; align-items:center;}
+
+#wrbox {width:1400px; height:765px; margin:0 auto; display:flex; flex-flow:row wrap; justify-content:center; align-items:center; align-content:center;}
+.wrtxt {width:300px; height:50px; display:flex; justify-content:center; align-items:center; flex-flow:row wrap;}
+.wrtxt h3 {font-size:40px; color:#000; font-family:"Microsoft Yi Baiti"; font-weight:lighter; }
+.wrtxt span {color:#b79e6e; text-align:center;}
+
+
+.wrtable {width:1360px; height:700px; margin:0 auto; display:flex; flex-flow:row wrap; justify-content:center; align-items:center;}
+ figure:before {content:"\e17c"; color:gold;  font-family:thegem-icons; vertical-align:middle; padding-right:15px 0 10px 0px;}
+ figure {font-weight:lighter; font-family:"Microsoft Yi Baiti"; font-size:15px; }
+
+.br {width:400px; height:530px;  display:flex; flex-wrap:wrap; justify-content:center; align-content:center; margin:50px 5px 0 0px; position:relative;}
+.monney1 {width:100px; height:100px; background-color:#fff; z-index:4; border-radius:100%; position:absolute; top:-10%; left:35%;}
+.monney1 h3 {text-align:center; margin:10px 0 0 0px; font-size:30px; color:orange;}
+.monney1 h4 {text-align:center; color:orange;}
+
+.brimg {width:415px; height:240px; background-color:coral; background:url("../img/mi1.jpg"); background-size:cover; background-position:center;}
+.brimg .three {width:100%; height:240px; background: linear-gradient(to bottom left, black calc(50% - 1px), black, transparent calc(50% + 1px) );
+  opacity:0.5;
+}
+.brtable {width:400px; height:350px; background-color:#fff;}
+.brtable button {background-color:#000; padding:15px; border:none; border-radius:20px; color:#fff; margin:40px 0 0 120px;}
+.brtable button:hover {background-color:#b79e6e; color:#000;}
+.tb {height:50px; font-size:20px; margin:20px 0 0 0px;}
+.tb1 {height:50px; font-size:20px;}
+.tb2 {height:50px; font-size:20px; background-color:#eee;}
+.tb3 {height:50px; font-size:20px;}
+.tb4 {height:50px; font-size:20px; background-color:#eee;}
+
+.lc {width:400px; height:530px;  display:flex; flex-wrap:wrap; justify-content:center; align-content:center; margin:50px 5px 0 0px; position:relative;}
+.lcimg {width:415px; height:240px; background-color:coral; background:url("../img/fd10.jpg"); background-size:cover; background-position:center;}
+.lcimg .three {width:100%; height:240px; background: linear-gradient(to bottom left, black calc(50% - 1px), black, transparent calc(50% + 1px) );
+  opacity:0.5;
+}
+.monney2 {width:100px; height:100px; background-color:#fff; z-index:4; border-radius:100%;  position:absolute; top:-10%; left:35%;}
+.monney2 h3 {text-align:center; margin:10px 0 0 0px; font-size:30px; color:orange;}
+.monney2 h4 {text-align:center; color:orange;}
+.lctable {width:400px; height:350px; background-color:#fff;}
+.lctable button {background-color:#000; padding:15px; border:none; border-radius:20px; color:#fff; float:left; margin:40px 0 0 120px;}
+.lctable button:hover {background-color:#b79e6e; color:#000; color:#000;}
+.tb {height:40px; font-size:18px;}
+.tb1 {height:40px; font-size:18px;}
+.tb2 {height:40px; font-size:18px; background-color:#eee;}
+.tb3 {height:40px; font-size:18px;}
+.tb4 {height:40px; font-size:18px; background-color:#eee;}
+.tb5 {height:40px; font-size:18px;}
+
+
+
+
+.dn {width:400px; height:530px;  display:flex; flex-wrap:wrap; justify-content:center; align-content:center;margin:50px 5px 0 0px; position:relative;}
+.dnimg {width:400px; height:240px; background-color:coral; background:url("../img/fd4.jpg"); background-size:cover; background-position:center;}
+.dnimg .three {width:100%; height:240px; background: linear-gradient(to bottom left, black calc(50% - 1px), black, transparent calc(50% + 1px) );
+  opacity:0.5;
+}
+.monney3 {width:100px; height:100px; background-color:#fff; z-index:10; border-radius:100%;  position:absolute; top:-10%; left:35%;}
+.monney3 h3 {text-align:center; margin:10px 0 0 0px; font-size:30px; color:orange;}
+.monney3 h4 {text-align:center; color:orange;}
+.dntable {width:400px; height:350px; background-color:#fff;}
+.dntable button {background-color:#000; padding:15px; border:none; border-radius:20px; color:#fff; margin:40px 0 0 120px;}
+.dntable button:hover {background-color:#b79e6e; color:#000; color:#000;}
+.tb {height:40px; font-size:18px;}
+.tb1 {height:40px; font-size:18px;}
+.tb2 {height:40px; font-size:18px; background-color:#eee;}
+.tb3 {height:40px; font-size:18px;}
+.tb4 {height:40px; font-size:18px; background-color:#eee;}
+
+
+
+
+#fact {width:100%; height:540px; margin:0 auto; display:flex; justify-content:center;}
+.factbox {width:1360px; height:550px; margin:0 auto; display:flex; justify-content:center; flex-flow:row wrap; align-items: center;}
+
+.facttxt {width:383px; height:80px; float:left; display:flex; justify-content:center; align-items:center;}
+.facttxt h3 {font-size:40px; color:#000; font-family:"Microsoft Yi Baiti"; font-weight:lighter;}
+.facttxt span {text-decoration:underline; text-decoration-color:orange;}
+.factcounter {width:1060px; height:205px; display:flex; flex-flow:row wrap; justify-content:center; align-content:center}
+.ct {width:200px; height:160px; display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-end;}
+.ct span {font-size:50px; font-weight:bold; }
+.cttxt {width:190px; height:30px;}
+.cttxt h3 {text-align:center; color:#ccc; font-size:20px; font-family:"Microsoft Yi Baiti";}
+.cf {width:200px; height:160px; margin:0 0 0 10px; display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-end;}
+.cf span {font-size:50px; font-weight:bold;}
+.cftxt {width:190px; height:30px;}
+.cftxt h3 {text-align:center; color:#ccc; font-size:20px; font-family:"Microsoft Yi Baiti";}
+.od {width:200px; height:160px; margin:0 0 0 10px; display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-end;}
+.od span {font-size:50px; font-weight:bold;}
+.odtxt {width:190px; height:30px;}
+.odtxt h3 {text-align:center; color:#ccc; font-size:20px; font-family:"Microsoft Yi Baiti";}
+.wc {width:200px; height:160px; margin:0 0 0 10px; display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-end;}
+.wc span {font-size:50px; font-weight:bold;}
+.wctxt {width:190px; height:30px;}
+.wctxt h3 {text-align:center; color:#ccc; font-size:20px; font-family:"Microsoft Yi Baiti";}
+
+#service {width:100%; height:510px; margin:0 auto; background-color:silver; display:flex; flex-wrap:wrap; justify-content:center; align-content:center; background-image:url("../img/sv5.jpg"); background-position:center; background-repeat:no-repeat; background-size:cover;}
+.svicon1 {width:150px; height:150px; display:flex; justify-content:center; flex-wrap:wrap; align-content:center; align-items:flex-end; margin:0px 0 0 100px; border:1px solid #fff;}
+.svicon1:hover {background-color:tomato;}
+.
+.svicon1 img {margin:0px 0 15px 0px;}
+ i {margin:0px 0 20px 0px;color:#000;}
+
+.svicon2 {width:150px; height:150px; margin:0px 0 0 100px; display:flex; justify-content:center; flex-wrap:wrap; align-content:center; align-items:flex-end; border:1px solid #fff;}
+.svicon2:hover {background-color:tomato;}
+.svicon2 img {margin:0px 0 15px 0px;}
+.svicon3 {width:150px; height:150px; margin:0px 0 0 100px; display:flex; justify-content:center; flex-wrap:wrap; align-content:center; align-items:flex-end; border:1px solid #fff;}
+.svicon3:hover {background-color:tomato;}
+.svicon3 img {margin:0px 0 15px 0px;}
+.svicon4 {width:150px; height:150px; margin:0px 0 0 100px; display:flex; justify-content:center; flex-wrap:wrap; align-content:center; align-items:flex-end; border:1px solid #fff;}
+.svicon4:hover {background-color:tomato;}
+.svicon4 img {margin:0px 0 15px 0px;}
+.svicon5 {width:150px; height:150px; margin:0px 0 0 100px; display:flex; justify-content:center; flex-wrap:wrap; align-content:center; align-items:flex-end; border:1px solid #fff;}
+.svicon5:hover {background-color:tomato;}
+
+.svtxt1 {width:150px; height:45px;}
+.svtxt1 h3 {text-align:center; color:#fff; font-family:"Microsoft Yi Baiti"; font-size:20px;} 
+
+#blog {width:100%; height:1300px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content:center;}
+#blog h2 {font-family:"Microsoft Yi Baiti"; font-size:45px;  margin;text-align:center; display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-start;}
+.blogbox {width:1175px; height:1020px; display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center;}
+.bgcenter {width:1260px; height:1187; margin:0 auto; display:flex; flex-flow:row wrap; justify-content:center ; align-content:center;}
+
+.bgtxt h3 {text-align:center; font-size:35px; font-weight:lighter; font-family:"Microsoft Yi Baiti";}
+.bgtxt span {text-align:center; margin:0px 0 0 35px; color:#b79e6e;  font-family:"Microsoft Yi Baiti"; font-size:20px;}
+.bgbox1 {width:340px; height:400px; margin:0px 0px -100px 50px; display:flex; justify-content:center; flex-wrap:wrap; align-items:center; }
+.bgtxt1 {width:320px; height:30px;  display:flex; justify-content:flex-start; align-content:center; align-items:flex-start;}
+.bgtxt1 h3 {text-align:left; color:#666; margin:0px 10px 0 0px;}
+.bgtxt1 img {float:left; margin:0px 0px 0 0px;}
+.bgtxt2 {width:315px; height:130px;}
+.bgimg1 {width:320px; height:240px; overflow:hidden; background:url("../img/fd7.jpg"); background-size:cover; background-position:center center;}
+.bgimg2 {width:320px; height:240px; overflow:hidden; background:url("../img/fd6.jpg"); background-size:cover; background-position:center center;}
+.bgimg3 {width:320px; height:240px; overflow:hidden; background:url("../img/fd8.jpg"); background-size:cover; background-position:center bottom;}
+.bgimg4 {width:320px; height:240px; overflow:hidden; background:url("../img/fd9.jpg"); background-size:cover; background-position:center top;}
+.bgimg5 {width:320px; height:220px; overflow:hidden; background:url("../img/b1.jpg"); background-size:cover; background-position:center center;}
+.bgimg6 {width:320px; height:220px; overflow:hidden; background:url("../img/di1.jpg"); background-size:cover; background-position:center center;}
+
+.bgbox2 {width:340px; height:495px; margin:95px 0 -90px 0px; display:flex; justify-content:center; flex-wrap:wrap; align-items:center}
+.bgbox3 {width:340px; height:465px; margin:50px 0 -100px 0px; display:flex; justify-content:center; flex-wrap:wrap; align-items:center}
+.bgbox4 {width:340px; height:460px; margin:0px 0 0 45px; display:flex; justify-content:center; flex-wrap:wrap; align-items:center}
+.bgbox5 {width:340px; height:360px; margin:50px 0 0px 0px; display:flex; justify-content:center; flex-wrap:wrap; align-items:center}
+.bgbox6 {width:340px; height:380px; margin:0px 0px 0 0 0px; display:flex; justify-content:center; flex-wrap:wrap; align-items:center;}
+.bgtxt2 span {color:orange; cursor:pointer; float: right; margin:20px 0 0 0px;}
+.bgtxt2 span:after {content:""; display:block; width:320px; border-bottom:1px solid #bcbcbc; margin:20px auto;}
+
+#video {width:100%; height:540px; margin:0 auto; position:relative; background-color:olive;}
+#bg {width:100%; height:35vmax; position:relative; overflow:hidden;}
+.textbox {position:absolute; top:50%; left:30%;}
+.textbox h1 {font-size:40px; color:#fff;}
+.textbox p {font-size:20px; color:#fff;}
+.textbox button {background-color:#000; color:#fff; border:none; border-radius:10px; padding:10px; float:right; margin:30px 350px 0 0px;}
+.textbox button:hover {background-color:#b79e6e;}
+
+video {position:relative; top:0; left:0; width:100%; }
+
+#test {width:100%; height:510px; margin:50px auto; display:flex; justify-content:center; align-items:center;}
+.txt {width:930px; height:355px;  display:flex; justify-content:center; align-content:center; flex-flow:row wrap;}
+.txt1 {width:310px; height:90px;}
+.txt1 h1 .d:after {text-decoration:underline; text-decoration-color:orange;}
+.txt2 {width:934px; height:95px;}
+.txt3 {width:325px; height:40px;}
+.txt3  h4 {text-align:center; color:#000;}
+.txt3 .c {text-align:center; color:orange;}
+.txt h2{text-align:center; font-size:30px; font-family:"Microsoft Yi Baiti";}
+
+ 
+#donate {width:100%; height:140px; margin:0 auto; background-color:#ededed; display:flex; justify-content:center; align-content:center; align-items:center;}
+.dnimg1 {width:195px; height:115px; margin:10px 0 0 10px;}
+.dnimg1 img {padding:20px;}
+.dnimg2 {width:195px; height:115px; margin:10px 0 0 10px;}
+.dnimg2 img {padding:20px;}
+.dnimg3 {width:195px; height:115px; margin:10px 0 0 10px;}
+.dnimg3 img {padding:20px;}
+.dnimg4 {width:195px; height:115px; margin:10px 0 0 10px;}
+.dnimg4 img {padding:20px;}
+.dnimg5 {width:195px; height:115px; margin:10px 0 0 10px;}
+.dnimg5 img {padding:20px;}
+.dnimg6 {width:195px; height:115px; margin:10px 0 0 10px;}
+.dnimg6 img {padding:20px;}
+
+
+}
